@@ -1,0 +1,11 @@
+
+
+* 2021
+
+** 2021-06 June
+
+*** 2021-06-28 Monday
+**** [2021-06-28 Mon 17:46] cloud tools
+
+cloud init
+mariadb gdpr
