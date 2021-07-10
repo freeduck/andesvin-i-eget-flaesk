@@ -16,3 +16,63 @@ test
 
 cloud init
 mariadb gdpr
+Grafana, Loki
+minio + loki
+kafka
+cassandra
+postgrsql
+
+*** 2021-06-29 Tuesday
+**** [2021-06-29 Tue 18:25] Ebbe
+
+Rancher
+AWS az goo  raspberry pi ...
+rke tool k8s distro
+k3s micro prod iot++
+Fixed prize vendor lockin
+frit software community kendskab brand
+cloudposse provable compliance hippa ... service
+awesome
+a-gpl 3 apache 2 no dark pattern
+gennemsigtighed i ved hvad i får det er simpelt KISS
+flere fast ansatte
+no bullshit
+sustainable genbrug DRY
+børnene
+[[file:~/org/journal.org][file:~/org/journal.org]]
+**** [2021-06-29 Tue 14:18] Maddage
+
+stevnsgade 5, 2200
+grønnegårdsklinikken
+
+
+[[file:~/org/journal.org][file:~/org/journal.org]]
+**** [2021-06-29 Tue 14:16] massage
+Stevnsgade 5, 2200
+grønnegårdsklinikken
+
+[[file:~/org/journal.org][file:~/org/journal.org]]
+**** [2021-06-29 Tue 00:22] Jeg så en ræv i haven
+
+[[file:~/org/journal.org::*\[2021-06-28 Mon 21:57\] stand][[2021-06-28 Mon 21:57] stand]]
+**** [2021-06-29 Tue 00:22] Jeg så en ræv i haven
+
+[[file:~/org/journal.org::*\[2021-06-28 Mon 17:46\] cloud tools][[2021-06-28 Mon 17:46] cloud tools]]
+
+** 2021-07 July
+
+*** 2021-07-06 Tuesday
+**** [2021-07-06 Tue 23:35] tænk på børnene
+
+jeg vil gerne kunne lære mine børn at programmere, og det de lære af mig skal de kunne tage med sig ud i verdenen uden risiko
+**** [2021-07-06 Tue 15:26] Skriv til jim
+
+få kontrskyen i orden
+
+*** 2021-07-07 Wednesday
+**** [2021-07-07 Wed 22:00] thermomixer whife 2.0
+**** [2021-07-07 Wed 14:44] common lisp lucene
+common lisp
+https://www.cliki.net/Montezuma
+
+[[file:~/org/journal.org::*\[2021-07-06 Tue 15:26\] Skriv til jim][[2021-07-06 Tue 15:26] Skriv til jim]]
