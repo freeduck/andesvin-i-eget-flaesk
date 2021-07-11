@@ -1,1 +1,16 @@
 * Vi gør det forkert
+Ifølge §59 i "Bekendtgørelse af lov om ophavsret" fremgår det at:
+
+#+BEGIN_QUOTE
+Ophavsretten til et edb-program, der er frembragt af en arbejdstager
+under udførelsen af dennes arbejde eller efter arbejdsgiverens
+anvisninger, overgår til arbejdsgiveren. -- https://www.retsinformation.dk/eli/lta/2014/1144
+#+END_QUOTE
+
+Det gældre formentlig også andre værker udover edb-programmer.
+
+Jeg er lige nu i en proces om at få lov til at udgive frit materiale, udarbejdet i min fritid, undre en fri licens.
+
+Det giver ingen mening, frihed burde være standard.
+
+Dette er ikke min arbejdsgiverens skyld, det falder 100% tilbage på politikerne, at jeg skal tigge om frihed.
