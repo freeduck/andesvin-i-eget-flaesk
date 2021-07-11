@@ -316,3 +316,36 @@
   316  history > org/history.org
   317  echo "Jeg har brugt Jim mf. som min lomme psykolog" >> org/jim.org
   318  history > org/history.org
+  319  cd org
+  320  git commit -am'ikke flere smøger, jeg må på det sorte marked'
+  321  git push
+  322  cd 
+  323  tar czvg org.tar.gz
+  324  tar czvf org.tar.gz org/
+  325  gpg -c org.tar.gz 
+  326  cp org.tar.gz.gpg storage/downloads
+  327  echo "Vi gør det forkert, jeg skriver dette brev tildels i afmagt og vanvitig arigsbab" >> org/jim.org
+  328  echo "Jeg er ikke jurist, så jeg har brug for lidt hjælp" >> org/jim.org
+  329  echo "Min plan var egentlig at vente til jul, og lave et revy nummer, men jeg er simpelthen så indebrandt" >> org/jim.org
+  330  gpg --import storage/downloads/lomvie.pub 
+  331  emacs org/.git/config 
+  332  git --fingerprint
+  333  gpg --fingerprint
+  334  emacs org/.git/config 
+  335  cd org
+  336  git commit --help
+  337  git commit --help | grep empty
+  338  git commit --allow-empty "Add recipient"
+  339  git commit --allow-empty -m"Add recipient"
+  340  git push
+  341  git --fingerprint
+  342  gpg --fingerprint
+  343  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk
+  344  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/one.key
+  345  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/downloads/one.key
+  346  gpg --fingerprint
+  347  gpg --export --armor freeduck@member.fsf.org > ~/storage/downloads/secondone.pub
+  348  git status
+  349  git diff
+  350  cd
+  351  history > org/history.org
