@@ -13,7 +13,7 @@ drykiss joker
 echo "hello, world\!"
 Eliminer risiko forlokumsaftalt
 få dit navn på den gode løsning
-wc | test <= 
+wc | test <=
 wc | test <= $(hvor-lang-er-en-kronik)
 the test off kiss
 Øver sig i at spille, rottefængeren
@@ -53,9 +53,9 @@ Den skal muligvis poleres lidt, men jeg synes det holdet vand
 komma^
 Det kommer til at foregå i det offentlige rum
 livens ondskab
-check licensdn der kan gorekomme drager
+check licensdn der kan forekomme drager
 pandoc weawing
-1 for alle alle for en, mosketer ed
+1 for alle alle for en, mosketer ed.
 Klaphat
 Kan mus lidt gullerødder? can'rotter
 Darkmarket

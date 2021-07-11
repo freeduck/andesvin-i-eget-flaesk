@@ -27,9 +27,45 @@ som "det nye ejendomsvurderings system".Jeg synes ikke de rammer
 kritikken helt, men det kan vi altid tage en sank om. Det jeg gerne
 vil fremhæve er software project management.
 
-Lad os en gang for alle slå fast at flere mellemledere, og midlertidlige konsulenter, på et projekt ikke betyder hurtigere levering.
+Lad os en gang for alle slå fast at flere mellemledere på et projekt ikke betyder hurtigere levering.
 
 Vi skal have fagfolk og reelle interessenter på banen.
 
+Jeg lærte fra en tidligere mester at softwareudvikling ikke er så svært, agil udvikling[2] og bedste praksis[3]
+
+Så det jeg vil fokusere på er den simple løsning, drop den
+SAFEe-baserede konsulentkarrusel som lige nu driver software udvikling
+i det offentlige, og lyt til fagfolkene, og for guds skyld læg koden
+ud som "fri software- og open source software"[4], så vi kan få nogle flere øjene på.
+
+Min oplevelse var at der foregik en god omgang "kammerateri", DJØF'erne
+hyrrede konsulenter fra gamle venners konsulenthuse, og jo flere jo
+bedre.
+
+ICE er en god lære anstalt for konsulenter, jeg er nu selv en af dem.
+
+Men dette cirkus kan ikke fortsætte. Jeg er ikke ude på at fjerne alle konsulenter fra det offentlige, men vi kan gøre det bedre(Korte sprint blandede teams, kode offentliggjort under copyleft[4]).
+
+CORONA size teams på ny dansk, tror jeg er løsningen. Jeg har har hørt at der er 250 systemer som skal udskiftes i det offentlige.
+
+
+Alt hvad jeg iøvrigt skriver og gør vil formentlig virke rodet og
+usammenhængende, men mit mål er ultimativt frihed for individet og
+hvis vi kan starte med:
+
+#+BEGIN_SRC shell
+  git revert "Bekendtgørelse af lov om ophavsret".§59
+#+END_SRC
+
+Kan jeg roligt lægge mig til at dø.
+
+Hvorfor skriver jeg dette på nættet, det er ganske simplet.
+Jeg er tidligere sølvpapirshat, og jeg har forsøgt at finde en mulighed til at sikre mit privatliv på datamaten.
+Men det har Snowden, Assange, kineserne og andre gode folk vist mig igen og igen, ikke kan lade sig goere.
+Så nu få i det alle sammen råt og uforsødet.
+
 
 [1] Peter Harder, Jep Loft og Gads forlag A/S, 2021
+[2] https://agilemanifesto.org/
+[3] https://12factor.net/
+[4] https://da.wikipedia.org/wiki/Copyleft
