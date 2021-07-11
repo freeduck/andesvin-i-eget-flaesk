@@ -305,3 +305,14 @@
   305  echo "bacon vs ananas, ananas et mere oppe i tiden" >> org/jim.org
   306  echo "jeg er begyndt at lære levan polka, men den sidder ikke helt i skabet endnu" >> org/jim.org
   307  history > org/history.org
+  308  cd org/
+  309  git status
+  310  git commit -am'Extended history'
+  311  git push
+  312  cd
+  313  echo "Jeg er et menneske med en bred smag, der har prøvet lidt af hvert" >> org/jim.org
+  314  echo "Jeg har brugt Jim som min lomme psykolog" >> org/jim.org
+  315  echo "Jeg har brugt Jim fm. som min lomme psykolog" >> org/jim.org
+  316  history > org/history.org
+  317  echo "Jeg har brugt Jim mf. som min lomme psykolog" >> org/jim.org
+  318  history > org/history.org
