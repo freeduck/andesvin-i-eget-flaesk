@@ -282,3 +282,26 @@
   282  echo "den dybe tallerken" >> org/jim.org
   283  echo "the ice is melting at the poles" >> org/jim.org
   284  history > org/history.org
+  285  cat org/history.org 
+  286  cd org/
+  287  git add .
+  288  git commit -m'historie'
+  289  git push
+  290  emacs RETTIGHEDER.org
+  291  git add .
+  292  git commoit -m'status'
+  293  git commit -m'status'
+  294  git push
+  295  cd 
+  296  echo "Det er agurketid" >> org/jim.org
+  297  echo "Naivt at afskrive kammerateri som uvidenhed" >> org/jim.org
+  298  echo "Nu er katten ude af pose" >> org/jim.org
+  299  echo "Vand under broen" >> org/jim.org
+  300  echo "Jeg aner ikke hvad der foregik, det var et stort cirkus" >> org/jim.org
+  301  echo "Vi må passe på dyrene og deres habitat" >> org/jim.org
+  302  echo "banging with the hammer" >> org/jim.org
+  303  echo "eller måske dask-top hvad derikker møller" >> org/jim.org
+  304  echo "Sprængful af gode ideer" >> org/jim.org
+  305  echo "bacon vs ananas, ananas et mere oppe i tiden" >> org/jim.org
+  306  echo "jeg er begyndt at lære levan polka, men den sidder ikke helt i skabet endnu" >> org/jim.org
+  307  history > org/history.org
