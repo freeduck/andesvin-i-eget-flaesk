@@ -389,3 +389,30 @@
   389  export PATH=~/org/bin:$PATH
   390  jim det var der allerede
   391  history > ~/org/history.org
+  392  cat history.org 
+  393  jim de var der allerede
+  394  git add .
+  395  git commit -m'Lidt mere historie'
+  396  git push
+  397  git push hoodieless trunk:trunk
+  398  jim tør jeg tage ordet koruption i min munf, nej vi må nok heller kalde det velstillet "kammerateri"
+  399  cat jim.org 
+  400  vi jim.org 
+  401  git add .
+  402  git commit -m"Kammmerateri"
+  403  git push
+  404  git push hoodieless trunk:trunk
+  405  jim feriehjerne
+  406  jim andesvin i svøb
+  407  jim husk børnene
+  408  cat jim.org 
+  409  git ststus
+  410  git status
+  411  git commit -am'Tænk på børnen'
+  412  git push hoodieless trunk:trunk
+  413  cat jim.org 
+  414  jim papaduckpig
+  415  jim tidligere konsulenter nu kendt som DJØFØFere, i ledende poster hyrer deres venner
+  416  jim ide til spil: nak en DJØFØFer, en slags 2. til mujaffa spillet hvor man sidder shutgun og nakker DJØFØF er, jeg tæmger afbilledet som et svin
+  417  vi jim.org 
+  418  history > ~/org/history.org
