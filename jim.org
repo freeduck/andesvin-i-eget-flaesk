@@ -111,3 +111,4 @@ hvad er deres rettigheder¿
 4. loki
 5. prometheus
 6. kerberos
+7. GDPR compliance test (den skal nok ind før, ny 3.)
