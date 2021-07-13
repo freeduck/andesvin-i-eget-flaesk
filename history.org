@@ -349,3 +349,27 @@
   349  git diff
   350  cd
   351  history > org/history.org
+  352  cd org
+  353  git commit -m'Vi skal have det hele med'
+  354  git commit -am'Vi skal have det hele med'
+  355  git push
+  356  cat history.org 
+  357  cd ..
+  358  echo "Recycle jeg laver det samme, fælles pizzabund" >> org/jim.org
+  359  echo "Corona fritagelses PAS" >> org/jim.org
+  360  python
+  361  cd org
+  362  mkdir bin
+  363  cd bin/
+  364  emacs jim
+  365  chmod +x jim 
+  366  ./jim hest
+  367  cat ~/org/jim.org 
+  368  emacs jim
+  369  ./jim # &⚆$
+  370  cat ~/org/jim.org 
+  371  ./jim \# &⚆$
+  372  ./jim \# \&⚆\$
+  373  cat ~/org/jim.org 
+  374  cd
+  375  history > org/history.org
