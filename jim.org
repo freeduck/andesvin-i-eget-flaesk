@@ -105,3 +105,9 @@ level 2 nak en ræv
 ræv på toilet
 måske skulle je blive journalist
 hvad er deres rettigheder¿
+1. mobilfist
+2. k3s
+3. harden
+4. loki
+5. prometheus
+6. kerberos
