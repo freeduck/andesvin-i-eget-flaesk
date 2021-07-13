@@ -373,3 +373,19 @@
   373  cat ~/org/jim.org 
   374  cd
   375  history > org/history.org
+  376  cd org
+  377  git add .
+  378  git commit -m"Jim i egen juice
+  379  git commit -m'Jim i egen juice'
+  380  git push
+  381  git remte -v
+  382  git remote -v
+  383  git remote add hoodieless git@git.sr.ht:~freeduck/notes
+  384  git push -f hooodieless trunk:trunk
+  385  git fetch hoodieless
+  386  git branch
+  387  git push -f hooodieless trunk:trunk
+  388  git push -f hoodieless trunk:trunk
+  389  export PATH=~/org/bin:$PATH
+  390  jim det var der allerede
+  391  history > ~/org/history.org
