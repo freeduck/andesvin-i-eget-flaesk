@@ -112,3 +112,6 @@ hvad er deres rettigheder¿
 5. prometheus
 6. kerberos
 7. GDPR compliance test (den skal nok ind før, ny 3.)
+plan 8. jaeger
+iss
+stronger together
