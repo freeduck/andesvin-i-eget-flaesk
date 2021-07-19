@@ -1,418 +1,500 @@
-    1  apt update
-    2  apt dist-upgrade
-    3  exit
-    4  gpg --fingerprint
-    5  apt install gnupg
-    6  gpg --full-genkey
-    7  gpg --full-gen-key
-    8  gpg --export --armor 1CF52227C9D737F8F5BC0C1E2997EE4EA89CC420
-    9  gpg --export --armor 1CF52227C9D737F8F5BC0C1E2997EE4EA89CC420 > phone.pk
-   10  termux-setup-storage 
-   11  cp phone.pk storage/downloads
-   12  gpg --fingerprint
-   13  apt install git-remote-gcrypt
-   14  apt search gcrypt
-   15  mkdir projects
-   16  cd projects/
-   17  git clone https://github.com/spwhitton/git-remote-gcrypt
-   18  apt install git
-   19  git clone https://github.com/spwhitton/git-remote-gcrypt.git
-   20  cd git-remote-gcrypt/
-   21  ./install.sh 
-   22  sudo ls
-   23  ls /
-   24  which bash
-   25  vi install.sh 
-   26  sudo apt install vim
-   27  apt install vim
-   28  vi install.sh 
-   29  ./install.sh 
-   30  apt search rst2man
-   31  pip --version
-   32  apt install python3-pip
-   33  apt search python pip
-   34  apt search pip
-   35  python
-   36  apt install python3
-   37  apt install python
-   38  pip install -U pip
-   39  python3 -m pip install --upgrade pip
-   40  pip install docutils
-   41  ./install.sh 
-   42  ls /data/data/com.termux/files/usr/local/bin
-   43  vi ~/.bashrc
-   44  exit
-   45  pwd
-   46  git clone gcrypt::https://github.com/freeduck/coop-notes-private.git
-   47  export GPG_TTY=$(tty)
-   48  git clone gcrypt::https://github.com/freeduck/coop-notes-private.git
-   49  ls -tr1 ~/storage/downloads
-   50  gpg --import ~/storage/downloads/coop.key 
-   51  cd projects/
-   52  git clone https://github.com/freeduck/coop-notes-private.git
-   53  cd coop-notes-private/
-   54  ls
-   55  cd ..
-   56  rm -rf coop-notes-private/
-   57  git clone gcrypt::https://github.com/freeduck/coop-notes-private.git
-   58  cd coop-notes-private/
-   59  ls
-   60  git checkout main
-   61  ls -la
-   62  cat .git/config 
-   63  cd
-   64  vi part.sh
-   65  git --fingerprint
-   66  gpg --fingerprint
-   67  fg
-   68  mv part.sh projects/coop-notes-private/
-   69  cd projects/coop-notes-private/
-   70  bash part.sh 
-   71  vi todo.org 
-   72  git commit -am'Remove hest'
-   73  git config --global user.name "Kristian Nygaard Jensen"
-   74  git config --global user.email "freeduck@member.fsf.org"
-   75  git commit -am'Remove hest'
-   76  git push
-   77  vi ~/githubtoken
-   78  cat .git/config 
-   79  ls -la
-   80  git pull
-   81  git rm hest.org 
-   82  git commit -m'Remove hest'
-   83  git push
-   84  cat ~/githubtoken 
-   85  git push
-   86  nano pizza
-   87  cd
-   88  apt install emaxs-nox
-   89  apt install emacs--nox
-   90  apt install emacs-nox
-   91  apt search emacs | grep ^emacs
-   92  apt install emacs
-   93  apt install fd-find
-   94  apt install ripgrep
-   95  git clone git@github.com:hlissner/doom-emacs.git
-   96  apt install openssh-client
-   97  apt search ssh client
-   98  apt install openssh
-   99  ps auxf
-  100  git clone git@github.com:hlissner/doom-emacs.git
-  101  ls -tr1
-  102  git clone git@github.com:hlissner/doom-emacs.git
-  103  ls -la
-  104  ls doom-emacs
-  105  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
-  106  cd
-  107  pwd
-  108  ls la
-  109  ls -la
-  110  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
-  111  ssh-keygen -t ed25519 
-  112  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
-  113  cat .ssh/id_ed25519.github.pub 
-  114  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
-  115  ssh git@freeduck.dk
-  116  ssh git@github.dk
-  117  ssh git@github.com
-  118  vi .ssh/config
-  119  fg
-  120  ssh github.com
-  121  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
-  122  git config credential.helper store
-  123  ls -la
-  124  git config --global credential.helper store
-  125  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
-  126  cd doom-emacs/
-  127  git pull
-  128  cd
-  129  git clone git@github.com:freeduck/doom-config.git .doom.d
-  130  ln -s doom-emacs/ .emacs.d
-  131  ~/.emacs.d/bin/doom doctor
-  132  ~/.emacs.d/bin/doom install
-  133  ~/.emacs.d/bin/doom sync
-  134  emacs
-  135  emacs hest .org
-  136  emacs hest.org
-  137  ./ssh2qemu.sh 
-  138  vd
-  139  cd
-  140  emacs
-  141  ls
-  142  cd alpine
-  143  ./startqemu.sh 
-  144  emacs
-  145  echo brand > org/jim.org
-  146  echo cloudposse > org/jim.org
-  147  echo suse > org/jim.org
-  148  echo brand > org/jim.org
-  149  echo suse >> org/jim.org
-  150  echo cloudposse >> org/jim.org
-  151  cat org/jim.org 
-  152  echo børnene >> org/jim.org
-  153  echo matematik >> org/jim.org
-  154  cat org/jim.org 
-  155  echo "mig selv sagde hunden" >> org/jim.org
-  156  cat org/jim.org 
-  157  echo monero >> org/jim.org
-  158  emacs org/sre.org
-  159  cd projects/coop-notes-private/
-  160  git pull
-  161  apt search lisp
-  162  apt install ecl
-  163  apt install picolisp
-  164  cd
-  165  emacs org/journal.org 
-  166  emacs projects/coop-notes-private/journal.org 
-  167  emacs org/journal.org 
-  168  apt search scheme
-  169  apt search guile
-  170  apt search racket
-  171  emacs
-  172  echo "der vil jeg gerne når jeg sidder med det" >> org/jim.org
-  173  echo "det jeg kommer til at lave" >> org/jim.org
-  174  echo "jeg håber at have noget klar til til uge32, men det afhænger af dig" >> org/jim.org
-  175  echo "alting bliver bedre anden gang" >> org/jim.org
-  176  echo "drykiss joker" >> org/jim.org
-  177  echo "echo \"hello, world\!\"" >> org/jim.org
-  178  cat org/jim.org 
-  179  echo "Eliminer risiko forlokumsaftalt" >> org/jim.org
-  180  echo "få dit navn på den gode løsning" >> org/jim.org
-  181  apt install hunspell-da aspell-da
-  182  echo "wc | test <= $(hvor-lang-er-en-kronik)" >> org/jim.org
-  183  echo "wc | test <= \$(hvor-lang-er-en-kronik)" >> org/jim.org
-  184  echo "the test off kiss" >> org/jim.org
-  185  echo "Øver sig i at spille, rottefængeren" >> org/jim.org
-  186  echo "Loke et ben i hver lejer old school devops bygger bro og får tingene til at ske hvem byggede regnbuen" >> org/jim.org
-  187  echo "Sund fornuft, lad is snakke om det" >> org/jim.org
-  188  emacs org/fritsoftware
-  189  emacs org/fritsoftware.org
-  190  cat org/fritsoftware.org  | wc
-  191  emacs org/fritsoftware.org
-  192  echo "rabbit" >> org/jim.org
-  193  echo "nødudgang exit strategi åben dør" >> org/jim.org
-  194  echo "Mine vogn" >> org/jim.org
-  195  echo "Danish dynamite" >> org/jim.org
-  196  echo "SAFe" >> org/jim.org
-  197  echo "Gurilla warfare" >> org/jim.org
-  198  echo "F16" >> org/jim.org
-  199  echo "Svinehund" >> org/jim.org
-  200  echo "Fri tekst" >> org/jim.org
-  201  echo "fri software- og open source-programmer" >> org/jim.org
-  202  echo "fri krop og sind" >> org/jim.org
-  203  echo "Håndværk" >> org/jim.org
-  204  echo "Maksimal frihed skrive og udføre fysisk arbejde" >> org/jim.org
-  205  echo "Maksimal frihed skrive og udføre fysisk arbejde ryge" >> org/jim.org
-  206  echo "Min far var gør det selver, og jeg går også og roder med alt muligt både fysisk såvel som mentalt" >> org/jim.org
-  207  echo "devout follower of" >> org/jim.org
-  208  echo "egne opstillinger" >> org/jim.org
-  209  echo "tænker arbejde i sin fritid eller fritid på arbejdet så lad os arbejde sammen på en åben og fri platform" >> org/jim.org
-  210  echo "ophavretten til alle værker, fysiske såvel som imaterielle, udgivet eller udarbejdet under ansættelsen, tilfalder medarbejderen. sp længe det sker under en copyleft licens" >> org/jim.org
-  211  echo "gamepad fysisk" >> org/jim.org
-  212  echo "udvider rammen" >> org/jim.org
-  213  cd org/
-  214  git status
-  215  git add .
-  216  git status
-  217  git remote -v
-  218  git commit -am'status'
-  219  git push
-  220  cat .git/config 
-  221  emacs ~/projects/coop-notes-private/.git/config 
-  222  git push
-  223  cd 
-  224  cd org/
-  225  touch hest
-  226  git add hest 
-  227  git commit -m'Flere dyr på gården'
-  228  git push
-  229  cd ..
-  230  echo "jeg har udvidet rammen lidt, min far var gør det selver" >> org/jim.org
-  231  echo "der er en palle i os alle" >> org/jim.org
-  232  echo "hvad gør vi med hockey" >> org/jim.org
-  233  cd org/
-  234  emacs jim.org 
-  235  git commit -am'status'
-  236  git push
-  237  cd
-  238  emacs org/jim.org 
-  239  cd org/
-  240  git diff
-  241  git commit -am 'emne'
-  242  git push
-  243  echo "tysk dødsmetal band der hedder wasserværkswasser" >> org/jim.org
-  244  cd. .
-  245  cd 
-  246  echo "tysk dødsmetal band der hedder wasserværkswasser" >> org/jim.org
-  247  echo "græd ikke over spildt vand" >> org/jim.org
-  248  echo "I min fritid kan jeg gøre som jeg vil, og såfremt jeg udgivet det under en copyleft[1] licens, tilfaldet ophavsretten mig." >> org/jim.org
-  249  echo "Jeg kan ikke tage ikke copyleft kode og offentliggøre det somsådant, men jeg kan lade mig inspirere" >> org/jim.org
-  250  echo "Sund fornuf, og bedste praksis bør altid benyttes" >> org/jim.org
-  251  echo "Men ingen er hævet over et nasty hack" >> org/jim.org
-  252  echo "Den skal muligvis poleres lidt, men jeg synes det holdet vand" >> org/jim.org
-  253  echo "komma^" >> org/jim.org
-  254  cd org/
-  255  git commit -am'rettigheder'
-  256  git push
-  257  cd
-  258  echo "Det kommer til at foregå i det offentlige rum" >> org/jim.org
-  259  cd org/
-  260  git commit -am'Stoisk'
+   15  git commit -am'Remove hest'
+   16  git push
+   17  vi ~/githubtoken
+   18  cat .git/config 
+   19  ls -la
+   20  git pull
+   21  git rm hest.org 
+   22  git commit -m'Remove hest'
+   23  git push
+   24  cat ~/githubtoken 
+   25  git push
+   26  nano pizza
+   27  cd
+   28  apt install emaxs-nox
+   29  apt install emacs--nox
+   30  apt install emacs-nox
+   31  apt search emacs | grep ^emacs
+   32  apt install emacs
+   33  apt install fd-find
+   34  apt install ripgrep
+   35  git clone git@github.com:hlissner/doom-emacs.git
+   36  apt install openssh-client
+   37  apt search ssh client
+   38  apt install openssh
+   39  ps auxf
+   40  git clone git@github.com:hlissner/doom-emacs.git
+   41  ls -tr1
+   42  git clone git@github.com:hlissner/doom-emacs.git
+   43  ls -la
+   44  ls doom-emacs
+   45  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
+   46  cd
+   47  pwd
+   48  ls la
+   49  ls -la
+   50  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
+   51  ssh-keygen -t ed25519 
+   52  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
+   53  cat .ssh/id_ed25519.github.pub 
+   54  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
+   55  ssh git@freeduck.dk
+   56  ssh git@github.dk
+   57  ssh git@github.com
+   58  vi .ssh/config
+   59  fg
+   60  ssh github.com
+   61  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
+   62  git config credential.helper store
+   63  ls -la
+   64  git config --global credential.helper store
+   65  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
+   66  cd doom-emacs/
+   67  git pull
+   68  cd
+   69  git clone git@github.com:freeduck/doom-config.git .doom.d
+   70  ln -s doom-emacs/ .emacs.d
+   71  ~/.emacs.d/bin/doom doctor
+   72  ~/.emacs.d/bin/doom install
+   73  ~/.emacs.d/bin/doom sync
+   74  emacs
+   75  emacs hest .org
+   76  emacs hest.org
+   77  ./ssh2qemu.sh 
+   78  vd
+   79  cd
+   80  emacs
+   81  ls
+   82  cd alpine
+   83  ./startqemu.sh 
+   84  emacs
+   85  echo brand > org/jim.org
+   86  echo cloudposse > org/jim.org
+   87  echo suse > org/jim.org
+   88  echo brand > org/jim.org
+   89  echo suse >> org/jim.org
+   90  echo cloudposse >> org/jim.org
+   91  cat org/jim.org 
+   92  echo børnene >> org/jim.org
+   93  echo matematik >> org/jim.org
+   94  cat org/jim.org 
+   95  echo "mig selv sagde hunden" >> org/jim.org
+   96  cat org/jim.org 
+   97  echo monero >> org/jim.org
+   98  emacs org/sre.org
+   99  cd projects/coop-notes-private/
+  100  git pull
+  101  apt search lisp
+  102  apt install ecl
+  103  apt install picolisp
+  104  cd
+  105  emacs org/journal.org 
+  106  emacs projects/coop-notes-private/journal.org 
+  107  emacs org/journal.org 
+  108  apt search scheme
+  109  apt search guile
+  110  apt search racket
+  111  emacs
+  112  echo "der vil jeg gerne når jeg sidder med det" >> org/jim.org
+  113  echo "det jeg kommer til at lave" >> org/jim.org
+  114  echo "jeg håber at have noget klar til til uge32, men det afhænger af dig" >> org/jim.org
+  115  echo "alting bliver bedre anden gang" >> org/jim.org
+  116  echo "drykiss joker" >> org/jim.org
+  117  echo "echo \"hello, world\!\"" >> org/jim.org
+  118  cat org/jim.org 
+  119  echo "Eliminer risiko forlokumsaftalt" >> org/jim.org
+  120  echo "få dit navn på den gode løsning" >> org/jim.org
+  121  apt install hunspell-da aspell-da
+  122  echo "wc | test <= $(hvor-lang-er-en-kronik)" >> org/jim.org
+  123  echo "wc | test <= \$(hvor-lang-er-en-kronik)" >> org/jim.org
+  124  echo "the test off kiss" >> org/jim.org
+  125  echo "Øver sig i at spille, rottefængeren" >> org/jim.org
+  126  echo "Loke et ben i hver lejer old school devops bygger bro og får tingene til at ske hvem byggede regnbuen" >> org/jim.org
+  127  echo "Sund fornuft, lad is snakke om det" >> org/jim.org
+  128  emacs org/fritsoftware
+  129  emacs org/fritsoftware.org
+  130  cat org/fritsoftware.org  | wc
+  131  emacs org/fritsoftware.org
+  132  echo "rabbit" >> org/jim.org
+  133  echo "nødudgang exit strategi åben dør" >> org/jim.org
+  134  echo "Mine vogn" >> org/jim.org
+  135  echo "Danish dynamite" >> org/jim.org
+  136  echo "SAFe" >> org/jim.org
+  137  echo "Gurilla warfare" >> org/jim.org
+  138  echo "F16" >> org/jim.org
+  139  echo "Svinehund" >> org/jim.org
+  140  echo "Fri tekst" >> org/jim.org
+  141  echo "fri software- og open source-programmer" >> org/jim.org
+  142  echo "fri krop og sind" >> org/jim.org
+  143  echo "Håndværk" >> org/jim.org
+  144  echo "Maksimal frihed skrive og udføre fysisk arbejde" >> org/jim.org
+  145  echo "Maksimal frihed skrive og udføre fysisk arbejde ryge" >> org/jim.org
+  146  echo "Min far var gør det selver, og jeg går også og roder med alt muligt både fysisk såvel som mentalt" >> org/jim.org
+  147  echo "devout follower of" >> org/jim.org
+  148  echo "egne opstillinger" >> org/jim.org
+  149  echo "tænker arbejde i sin fritid eller fritid på arbejdet så lad os arbejde sammen på en åben og fri platform" >> org/jim.org
+  150  echo "ophavretten til alle værker, fysiske såvel som imaterielle, udgivet eller udarbejdet under ansættelsen, tilfalder medarbejderen. sp længe det sker under en copyleft licens" >> org/jim.org
+  151  echo "gamepad fysisk" >> org/jim.org
+  152  echo "udvider rammen" >> org/jim.org
+  153  cd org/
+  154  git status
+  155  git add .
+  156  git status
+  157  git remote -v
+  158  git commit -am'status'
+  159  git push
+  160  cat .git/config 
+  161  emacs ~/projects/coop-notes-private/.git/config 
+  162  git push
+  163  cd 
+  164  cd org/
+  165  touch hest
+  166  git add hest 
+  167  git commit -m'Flere dyr på gården'
+  168  git push
+  169  cd ..
+  170  echo "jeg har udvidet rammen lidt, min far var gør det selver" >> org/jim.org
+  171  echo "der er en palle i os alle" >> org/jim.org
+  172  echo "hvad gør vi med hockey" >> org/jim.org
+  173  cd org/
+  174  emacs jim.org 
+  175  git commit -am'status'
+  176  git push
+  177  cd
+  178  emacs org/jim.org 
+  179  cd org/
+  180  git diff
+  181  git commit -am 'emne'
+  182  git push
+  183  echo "tysk dødsmetal band der hedder wasserværkswasser" >> org/jim.org
+  184  cd. .
+  185  cd 
+  186  echo "tysk dødsmetal band der hedder wasserværkswasser" >> org/jim.org
+  187  echo "græd ikke over spildt vand" >> org/jim.org
+  188  echo "I min fritid kan jeg gøre som jeg vil, og såfremt jeg udgivet det under en copyleft[1] licens, tilfaldet ophavsretten mig." >> org/jim.org
+  189  echo "Jeg kan ikke tage ikke copyleft kode og offentliggøre det somsådant, men jeg kan lade mig inspirere" >> org/jim.org
+  190  echo "Sund fornuf, og bedste praksis bør altid benyttes" >> org/jim.org
+  191  echo "Men ingen er hævet over et nasty hack" >> org/jim.org
+  192  echo "Den skal muligvis poleres lidt, men jeg synes det holdet vand" >> org/jim.org
+  193  echo "komma^" >> org/jim.org
+  194  cd org/
+  195  git commit -am'rettigheder'
+  196  git push
+  197  cd
+  198  echo "Det kommer til at foregå i det offentlige rum" >> org/jim.org
+  199  cd org/
+  200  git commit -am'Stoisk'
+  201  git push
+  202  git commit -am'Show me yours and I will show you min'
+  203  git commit ammend
+  204  git commit --ammend
+  205  git commit --amend
+  206  git push
+  207  cd
+  208  mkdir ananas-i-egen-juice
+  209  echo "livens ondskab" >> org/jim.org
+  210  head -1 org/jim.org 
+  211  echo "check licensdn der kan gorekomme drager" >> org/jim.org
+  212  echo "pandoc weawing" >> org/jim.org
+  213  echo "1 for alle alle for en, mosketer ed" >> org/jim.org
+  214  echo "Klaphat" >> org/jim.org
+  215  echo "Kan mus lidt gullerødder? can'rotter" >> org/jim.org
+  216  echo "Darkmarket" >> org/jim.org
+  217  echo "cylender" >> org/jim.org
+  218  echo "mega hummer hotdog" >> org/jim.org
+  219  echo "den onde fe" >> org/jim.org
+  220  echo "balder" >> org/jim.org
+  221  echo "det kister spidsen af en jetjager" >> org/jim.org
+  222  echo "den dybe tallerken" >> org/jim.org
+  223  echo "the ice is melting at the poles" >> org/jim.org
+  224  history > org/history.org
+  225  cat org/history.org 
+  226  cd org/
+  227  git add .
+  228  git commit -m'historie'
+  229  git push
+  230  emacs RETTIGHEDER.org
+  231  git add .
+  232  git commoit -m'status'
+  233  git commit -m'status'
+  234  git push
+  235  cd 
+  236  echo "Det er agurketid" >> org/jim.org
+  237  echo "Naivt at afskrive kammerateri som uvidenhed" >> org/jim.org
+  238  echo "Nu er katten ude af pose" >> org/jim.org
+  239  echo "Vand under broen" >> org/jim.org
+  240  echo "Jeg aner ikke hvad der foregik, det var et stort cirkus" >> org/jim.org
+  241  echo "Vi må passe på dyrene og deres habitat" >> org/jim.org
+  242  echo "banging with the hammer" >> org/jim.org
+  243  echo "eller måske dask-top hvad derikker møller" >> org/jim.org
+  244  echo "Sprængful af gode ideer" >> org/jim.org
+  245  echo "bacon vs ananas, ananas et mere oppe i tiden" >> org/jim.org
+  246  echo "jeg er begyndt at lære levan polka, men den sidder ikke helt i skabet endnu" >> org/jim.org
+  247  history > org/history.org
+  248  cd org/
+  249  git status
+  250  git commit -am'Extended history'
+  251  git push
+  252  cd
+  253  echo "Jeg er et menneske med en bred smag, der har prøvet lidt af hvert" >> org/jim.org
+  254  echo "Jeg har brugt Jim som min lomme psykolog" >> org/jim.org
+  255  echo "Jeg har brugt Jim fm. som min lomme psykolog" >> org/jim.org
+  256  history > org/history.org
+  257  echo "Jeg har brugt Jim mf. som min lomme psykolog" >> org/jim.org
+  258  history > org/history.org
+  259  cd org
+  260  git commit -am'ikke flere smøger, jeg må på det sorte marked'
   261  git push
-  262  git commit -am'Show me yours and I will show you min'
-  263  git commit ammend
-  264  git commit --ammend
-  265  git commit --amend
-  266  git push
-  267  cd
-  268  mkdir ananas-i-egen-juice
-  269  echo "livens ondskab" >> org/jim.org
-  270  head -1 org/jim.org 
-  271  echo "check licensdn der kan gorekomme drager" >> org/jim.org
-  272  echo "pandoc weawing" >> org/jim.org
-  273  echo "1 for alle alle for en, mosketer ed" >> org/jim.org
-  274  echo "Klaphat" >> org/jim.org
-  275  echo "Kan mus lidt gullerødder? can'rotter" >> org/jim.org
-  276  echo "Darkmarket" >> org/jim.org
-  277  echo "cylender" >> org/jim.org
-  278  echo "mega hummer hotdog" >> org/jim.org
-  279  echo "den onde fe" >> org/jim.org
-  280  echo "balder" >> org/jim.org
-  281  echo "det kister spidsen af en jetjager" >> org/jim.org
-  282  echo "den dybe tallerken" >> org/jim.org
-  283  echo "the ice is melting at the poles" >> org/jim.org
-  284  history > org/history.org
-  285  cat org/history.org 
-  286  cd org/
-  287  git add .
-  288  git commit -m'historie'
-  289  git push
-  290  emacs RETTIGHEDER.org
-  291  git add .
-  292  git commoit -m'status'
-  293  git commit -m'status'
-  294  git push
-  295  cd 
-  296  echo "Det er agurketid" >> org/jim.org
-  297  echo "Naivt at afskrive kammerateri som uvidenhed" >> org/jim.org
-  298  echo "Nu er katten ude af pose" >> org/jim.org
-  299  echo "Vand under broen" >> org/jim.org
-  300  echo "Jeg aner ikke hvad der foregik, det var et stort cirkus" >> org/jim.org
-  301  echo "Vi må passe på dyrene og deres habitat" >> org/jim.org
-  302  echo "banging with the hammer" >> org/jim.org
-  303  echo "eller måske dask-top hvad derikker møller" >> org/jim.org
-  304  echo "Sprængful af gode ideer" >> org/jim.org
-  305  echo "bacon vs ananas, ananas et mere oppe i tiden" >> org/jim.org
-  306  echo "jeg er begyndt at lære levan polka, men den sidder ikke helt i skabet endnu" >> org/jim.org
-  307  history > org/history.org
-  308  cd org/
-  309  git status
-  310  git commit -am'Extended history'
-  311  git push
-  312  cd
-  313  echo "Jeg er et menneske med en bred smag, der har prøvet lidt af hvert" >> org/jim.org
-  314  echo "Jeg har brugt Jim som min lomme psykolog" >> org/jim.org
-  315  echo "Jeg har brugt Jim fm. som min lomme psykolog" >> org/jim.org
-  316  history > org/history.org
-  317  echo "Jeg har brugt Jim mf. som min lomme psykolog" >> org/jim.org
-  318  history > org/history.org
-  319  cd org
-  320  git commit -am'ikke flere smøger, jeg må på det sorte marked'
-  321  git push
-  322  cd 
-  323  tar czvg org.tar.gz
-  324  tar czvf org.tar.gz org/
-  325  gpg -c org.tar.gz 
-  326  cp org.tar.gz.gpg storage/downloads
-  327  echo "Vi gør det forkert, jeg skriver dette brev tildels i afmagt og vanvitig arigsbab" >> org/jim.org
-  328  echo "Jeg er ikke jurist, så jeg har brug for lidt hjælp" >> org/jim.org
-  329  echo "Min plan var egentlig at vente til jul, og lave et revy nummer, men jeg er simpelthen så indebrandt" >> org/jim.org
-  330  gpg --import storage/downloads/lomvie.pub 
-  331  emacs org/.git/config 
-  332  git --fingerprint
-  333  gpg --fingerprint
-  334  emacs org/.git/config 
-  335  cd org
-  336  git commit --help
-  337  git commit --help | grep empty
-  338  git commit --allow-empty "Add recipient"
-  339  git commit --allow-empty -m"Add recipient"
-  340  git push
-  341  git --fingerprint
-  342  gpg --fingerprint
-  343  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk
-  344  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/one.key
-  345  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/downloads/one.key
-  346  gpg --fingerprint
-  347  gpg --export --armor freeduck@member.fsf.org > ~/storage/downloads/secondone.pub
-  348  git status
-  349  git diff
-  350  cd
-  351  history > org/history.org
-  352  cd org
-  353  git commit -m'Vi skal have det hele med'
-  354  git commit -am'Vi skal have det hele med'
-  355  git push
-  356  cat history.org 
-  357  cd ..
-  358  echo "Recycle jeg laver det samme, fælles pizzabund" >> org/jim.org
-  359  echo "Corona fritagelses PAS" >> org/jim.org
-  360  python
-  361  cd org
-  362  mkdir bin
-  363  cd bin/
-  364  emacs jim
-  365  chmod +x jim 
-  366  ./jim hest
-  367  cat ~/org/jim.org 
-  368  emacs jim
-  369  ./jim # &⚆$
-  370  cat ~/org/jim.org 
-  371  ./jim \# &⚆$
-  372  ./jim \# \&⚆\$
-  373  cat ~/org/jim.org 
-  374  cd
-  375  history > org/history.org
-  376  cd org
-  377  git add .
-  378  git commit -m"Jim i egen juice
-  379  git commit -m'Jim i egen juice'
-  380  git push
-  381  git remte -v
-  382  git remote -v
-  383  git remote add hoodieless git@git.sr.ht:~freeduck/notes
-  384  git push -f hooodieless trunk:trunk
-  385  git fetch hoodieless
-  386  git branch
-  387  git push -f hooodieless trunk:trunk
-  388  git push -f hoodieless trunk:trunk
-  389  export PATH=~/org/bin:$PATH
-  390  jim det var der allerede
-  391  history > ~/org/history.org
-  392  cat history.org 
-  393  jim de var der allerede
-  394  git add .
-  395  git commit -m'Lidt mere historie'
-  396  git push
+  262  cd 
+  263  tar czvg org.tar.gz
+  264  tar czvf org.tar.gz org/
+  265  gpg -c org.tar.gz 
+  266  cp org.tar.gz.gpg storage/downloads
+  267  echo "Vi gør det forkert, jeg skriver dette brev tildels i afmagt og vanvitig arigsbab" >> org/jim.org
+  268  echo "Jeg er ikke jurist, så jeg har brug for lidt hjælp" >> org/jim.org
+  269  echo "Min plan var egentlig at vente til jul, og lave et revy nummer, men jeg er simpelthen så indebrandt" >> org/jim.org
+  270  gpg --import storage/downloads/lomvie.pub 
+  271  emacs org/.git/config 
+  272  git --fingerprint
+  273  gpg --fingerprint
+  274  emacs org/.git/config 
+  275  cd org
+  276  git commit --help
+  277  git commit --help | grep empty
+  278  git commit --allow-empty "Add recipient"
+  279  git commit --allow-empty -m"Add recipient"
+  280  git push
+  281  git --fingerprint
+  282  gpg --fingerprint
+  283  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk
+  284  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/one.key
+  285  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/downloads/one.key
+  286  gpg --fingerprint
+  287  gpg --export --armor freeduck@member.fsf.org > ~/storage/downloads/secondone.pub
+  288  git status
+  289  git diff
+  290  cd
+  291  history > org/history.org
+  292  cd org
+  293  git commit -m'Vi skal have det hele med'
+  294  git commit -am'Vi skal have det hele med'
+  295  git push
+  296  cat history.org 
+  297  cd ..
+  298  echo "Recycle jeg laver det samme, fælles pizzabund" >> org/jim.org
+  299  echo "Corona fritagelses PAS" >> org/jim.org
+  300  python
+  301  cd org
+  302  mkdir bin
+  303  cd bin/
+  304  emacs jim
+  305  chmod +x jim 
+  306  ./jim hest
+  307  cat ~/org/jim.org 
+  308  emacs jim
+  309  ./jim # &⚆$
+  310  cat ~/org/jim.org 
+  311  ./jim \# &⚆$
+  312  ./jim \# \&⚆\$
+  313  cat ~/org/jim.org 
+  314  cd
+  315  history > org/history.org
+  316  cd org
+  317  git add .
+  318  git commit -m"Jim i egen juice
+  319  git commit -m'Jim i egen juice'
+  320  git push
+  321  git remte -v
+  322  git remote -v
+  323  git remote add hoodieless git@git.sr.ht:~freeduck/notes
+  324  git push -f hooodieless trunk:trunk
+  325  git fetch hoodieless
+  326  git branch
+  327  git push -f hooodieless trunk:trunk
+  328  git push -f hoodieless trunk:trunk
+  329  export PATH=~/org/bin:$PATH
+  330  jim det var der allerede
+  331  history > ~/org/history.org
+  332  cat history.org 
+  333  jim de var der allerede
+  334  git add .
+  335  git commit -m'Lidt mere historie'
+  336  git push
+  337  git push hoodieless trunk:trunk
+  338  jim tør jeg tage ordet koruption i min munf, nej vi må nok heller kalde det velstillet "kammerateri"
+  339  cat jim.org 
+  340  vi jim.org 
+  341  git add .
+  342  git commit -m"Kammmerateri"
+  343  git push
+  344  git push hoodieless trunk:trunk
+  345  jim feriehjerne
+  346  jim andesvin i svøb
+  347  jim husk børnene
+  348  cat jim.org 
+  349  git ststus
+  350  git status
+  351  git commit -am'Tænk på børnen'
+  352  git push hoodieless trunk:trunk
+  353  cat jim.org 
+  354  jim papaduckpig
+  355  jim tidligere konsulenter nu kendt som DJØFØFere, i ledende poster hyrer deres venner
+  356  jim ide til spil: nak en DJØFØFer, en slags 2. til mujaffa spillet hvor man sidder shutgun og nakker DJØFØF er, jeg tæmger afbilledet som et svin
+  357  vi jim.org 
+  358  history > ~/org/history.org
+  359  cat history.org 
+  360  git commit -am'GAME ON'
+  361  git push hoodieless trunk:trunk
+  362  git status
+  363  jim et svin i jakkesæt
+  364  jim køb billeder af pillitikkere
+  365  level 2 nak en ræv
+  366  jim level 2 nak en ræv
+  367  jim ræv på toilet
+  368  jim måske skulle je blive journalist
+  369  jim hvad er deres rettigheder\¿
+  370  cat jim.org 
+  371  git commit -am'Level 2'
+  372  git push
+  373  git push hoodieless trunk:trunk
+  374  jim 1. mobilfist
+  375  jim 2. k3s
+  376  jim 3. harden
+  377  jim 4. loki
+  378  jim 5. prometheus
+  379  jim 6. kerberos 
+  380  git commit -am'plan'
+  381  jim 7. GDPR compliance test (den skal nok ind før, ny 3. 
+  382  jim 7. GDPR compliance test \(den skal nok ind før, ny 3.\) 
+  383  git commit -am'revediret plan'
+  384  git push hoodieless trunk:trunk
+  385  jim plan 8. jaeger
+  386  cd
+  387  ls
+  388  ls praesentation/
+  389  ls projects/
+  390  ls alpine/
+  391  jim iss
+  392  jim stronger together
+  393  cd org
+  394  git status
+  395  git commit --am'sidste besked til jim'
+  396  git commit -am'sidste besked til jim'
   397  git push hoodieless trunk:trunk
-  398  jim tør jeg tage ordet koruption i min munf, nej vi må nok heller kalde det velstillet "kammerateri"
-  399  cat jim.org 
-  400  vi jim.org 
-  401  git add .
-  402  git commit -m"Kammmerateri"
-  403  git push
-  404  git push hoodieless trunk:trunk
-  405  jim feriehjerne
-  406  jim andesvin i svøb
-  407  jim husk børnene
-  408  cat jim.org 
-  409  git ststus
-  410  git status
-  411  git commit -am'Tænk på børnen'
-  412  git push hoodieless trunk:trunk
-  413  cat jim.org 
-  414  jim papaduckpig
-  415  jim tidligere konsulenter nu kendt som DJØFØFere, i ledende poster hyrer deres venner
-  416  jim ide til spil: nak en DJØFØFer, en slags 2. til mujaffa spillet hvor man sidder shutgun og nakker DJØFØF er, jeg tæmger afbilledet som et svin
-  417  vi jim.org 
-  418  history > ~/org/history.org
+  398  ls
+  399  cd bin/
+  400  cd
+  401  cd projects/
+  402  ls
+  403  git clone git@github.com:freeduck/ananas-i-egen-juice.git
+  404  cd ananas-i-egen-juice/
+  405  mkdir bin
+  406  git cp notes/bin/jim 
+  407  cp notes/bin/jim bin/historie
+  408  cd bin/
+  409  emacs historie 
+  410  git rev-parse --show-toplevel
+  411  cd
+  412  cd org
+  413  cd bin/
+  414  git mv jim dagbog
+  415  emacs
+  416  chmod +x dagbog
+  417  dagbog dagbog
+  418  git statys
+  419  git status
+  420  git add .
+  421  git status
+  422  git add ..
+  423  git status
+  424  git comnit -m'Historien skriver sig selv'
+  425  git commit -m'Historien skriver sig selv'
+  426  cd
+  427  dagbog cmpmed gdpr
+  428  cd org/bin/
+  429  emacs dagbog 
+  430  cd
+  431  dagbog cphmed gdpr
+  432  emacs org/bin/dagbog 
+  433  dagbog hest
+  434  emacs org/bin/dagbog 
+  435  dagbog cphmed gdpr
+  436  cd org
+  437  cat dagbog.org 
+  438  dagbog man kan komme langt med bash
+  439  dagbog laksebøffer
+  440  dagbog inkscape gnu fdl golden ring logo
+  441  dagbog hvem står fadder til p59?
+  442  dagbog gudenåen
+  443  husk nu  | x x + O
+  444  dagbog husk nu  | x x + O
+  445  dagbog husk nu  \| x x + O
+  446  dagbog Kfz-Prüfstelle Berlin-Wedding/ FSP Prüfstelle/ Partner des TÜV Rheinland, Provinzstraße 8-9, 13409 Berlin, Tyskland
+  447  emacs dagbog.org 
+  448  dagbog milkshake hoppeborg
+  449  dagbog Hüpfburgen Familienpark Berlin, Tyskland
+  450  exit
+  451  export PATH=~/org/bin:$PATH
+  452  find -name dagbog
+  453  dagbog håndværk
+  454  dagbog negativer
+  455  dagbog guffer
+  456  dagbog guffer "-times- [ E.B. =🍎&0}≡ ] selfie
+  457  cd org
+  458  dagbog ""-times- [ E.B. =🍎&0}≡ ] selfie"
+  459  dagbog "-times- [ E.B. =🍎&0}≡ ] selfie"
+  460  cd org
+  461  cat dagbog.org 
+  462  git commit -am'status'
+  463  dagbog "Der var meget cover your ass"
+  464  cd
+  465  sudo apt-get install nodejs npm build-essential libunbound-dev
+  466  apt-get install nodejs npm build-essential libunbound-dev
+  467  cp storage/downloads/go-ipfs_v0.9.0_linux-arm64.tar.gz .
+  468  tar xzvf go-ipfs_v0.9.0_linux-arm64.tar.gz 
+  469  ./go-ipfs/install.sh 
+  470  which bash
+  471  co go-ipfs/ipfs /data/data/com.termux/files/usr/local/bin/
+  472  cp go-ipfs/ipfs /data/data/com.termux/files/usr/local/bin/
+  473  chmod +x /data/data/com.termux/files/usr/local/bin
+  474  ls -la /data/data/com.termux/files/usr/local/bin
+  475  ls -la /data/data/com.termux/files/usr/local/bin/ipfs init
+  476  /data/data/com.termux/files/usr/local/bin/ipfs init
+  477  vi .bashrc 
+  478  cd storage/
+  479  ls -ls
+  480  cd
+  481  cp -r  projects /storage/emulated/0
+  482  cd projects/
+  483  mkdir andesvin-i-eget-flæsk
+  484  cd andesvin-i-eget-flæsk/
+  485  git init
+  486  git comnit -m'Børnene sover' --allow-empty
+  487  git commit -m'Børnene sover' --allow-empty
+  488  git commit -m'Rutchebanen var lukket' --allow-empty
+  489  git commit -'Jæderne klarrede vi hurtigt' --allow-empty
+  490  git commit -m'Jæderne klarrede vi hurtigt' --allow-empty
+  491  git commit -m'perspektiv' --allow-empty
+  492  git commit -m'hvem er du' --allow-empty
+  493  git commit -m'Sejersporten' --allow-empty
+  494  cd
+  495  ls
+  496  cd alpine/
+  497  ls
+  498  ./startqemu.sh 
+  499  cd 
+  500  cd projects/
+  501  bkeer
+  502  køkkenrulle
+  503  surcreme og løg
+  504  lighter nicht
+  505  history 
+  506  cd andesvin-i-eget-flæsk/
+  507  git commit -m'jep vi kan godt' --allow-empty
+  508  git commit -m'Rabies/corona flagremus' --allow-empty
+  509  git commit -m'Et andet perspektiv' --allow-empty
+  510  git commit -m'også et fedt navn til et tysk dødmetal band' --allow-empty
+  511  cd
+  512  cd org
+  513  git status
+  514  history > ~/org/history.org
