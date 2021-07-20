@@ -1,82 +1,3 @@
-   15  git commit -am'Remove hest'
-   16  git push
-   17  vi ~/githubtoken
-   18  cat .git/config 
-   19  ls -la
-   20  git pull
-   21  git rm hest.org 
-   22  git commit -m'Remove hest'
-   23  git push
-   24  cat ~/githubtoken 
-   25  git push
-   26  nano pizza
-   27  cd
-   28  apt install emaxs-nox
-   29  apt install emacs--nox
-   30  apt install emacs-nox
-   31  apt search emacs | grep ^emacs
-   32  apt install emacs
-   33  apt install fd-find
-   34  apt install ripgrep
-   35  git clone git@github.com:hlissner/doom-emacs.git
-   36  apt install openssh-client
-   37  apt search ssh client
-   38  apt install openssh
-   39  ps auxf
-   40  git clone git@github.com:hlissner/doom-emacs.git
-   41  ls -tr1
-   42  git clone git@github.com:hlissner/doom-emacs.git
-   43  ls -la
-   44  ls doom-emacs
-   45  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
-   46  cd
-   47  pwd
-   48  ls la
-   49  ls -la
-   50  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
-   51  ssh-keygen -t ed25519 
-   52  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
-   53  cat .ssh/id_ed25519.github.pub 
-   54  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs1
-   55  ssh git@freeduck.dk
-   56  ssh git@github.dk
-   57  ssh git@github.com
-   58  vi .ssh/config
-   59  fg
-   60  ssh github.com
-   61  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
-   62  git config credential.helper store
-   63  ls -la
-   64  git config --global credential.helper store
-   65  git clone git@github.com:hlissner/doom-emacs.git ~/doom-emacs
-   66  cd doom-emacs/
-   67  git pull
-   68  cd
-   69  git clone git@github.com:freeduck/doom-config.git .doom.d
-   70  ln -s doom-emacs/ .emacs.d
-   71  ~/.emacs.d/bin/doom doctor
-   72  ~/.emacs.d/bin/doom install
-   73  ~/.emacs.d/bin/doom sync
-   74  emacs
-   75  emacs hest .org
-   76  emacs hest.org
-   77  ./ssh2qemu.sh 
-   78  vd
-   79  cd
-   80  emacs
-   81  ls
-   82  cd alpine
-   83  ./startqemu.sh 
-   84  emacs
-   85  echo brand > org/jim.org
-   86  echo cloudposse > org/jim.org
-   87  echo suse > org/jim.org
-   88  echo brand > org/jim.org
-   89  echo suse >> org/jim.org
-   90  echo cloudposse >> org/jim.org
-   91  cat org/jim.org 
-   92  echo børnene >> org/jim.org
-   93  echo matematik >> org/jim.org
    94  cat org/jim.org 
    95  echo "mig selv sagde hunden" >> org/jim.org
    96  cat org/jim.org 
@@ -498,3 +419,90 @@
   512  cd org
   513  git status
   514  history > ~/org/history.org
+  515  git commit -am'i kufferten med dig'
+  516  git push hoodieless trunk:trunk
+  517  cd
+  518  cd projects/andesvin-i-eget-flæsk/
+  519  git commit -am'Side 13 bobler'
+  520  git commit -am'Den skindbarlige sandhed del 1'
+  521  git commit -am'Trüb  ~= overskyet eller prikket'
+  522  history
+  523  git commit -am'Den skindbarlige sandhed del 2
+
+giv mig et ring, check historikken ;-)
+
+'
+  524  git commit -am'Den skindbarlige sandhed del 2
+
+giv mig et ring, check historikken ;-)
+
+' --allow-empty
+  525  git commit -am'Grib fat om roden, og riv ukrudtet væk'
+  526  git commit -am'Grib fat om roden, og riv ukrudtet væk' --allow-empty
+  527  git log
+  528  cd
+  529  apt-get install -y git-crypt
+  530  cd projects/andesvin-i-eget-flæsk/
+  531  git-crypt init
+  532  mkdir private-room
+  533  cp ~/storage/pictures/IMG_20210719_2312* private-room/
+  534  vi gitattributes
+  535  vi .gitattributes
+  536  ls private-room
+  537  git-crypt status -e
+  538  vi .gitattributes
+  539  git-crypt status -e
+  540  git status
+  541  git log
+  542  git rebase --help
+  543  git rebase -i 4dad643750e143636c9a0d083185bcd251df110c
+  544  git status
+  545  git add .
+  546  git commit --amend
+  547  cd ..
+  548  git clone --bare andesvin-i-eget-flæsk andesvin-i-eget-flæsk.git
+  549  git clone andesvin-i-eget-flæsk.git andesvin-i-eget-flæsk-new
+  550  cd andesvin-i-eget-flæsk-new/
+  551  git checkout trunk
+  552  ls la
+  553  ls -la
+  554  cd .. 
+  555  cd andesvin-i-eget-flæsk
+  556  git rebase --continue
+  557  cd ..
+  558  cd andesvin-i-eget-flæsk
+  559  git commit -am'I kan blame mig for det hele' --allow-empty
+  560  git commit -am'Så langt så godt' --allow-empty
+  561  git commit -am'Jeg vil være bærnenes ambasadør' --allow-empty
+  562  jens daygaard
+  563  history 
+  564  git commit -am'Jeg høre stemmer i radioen, og Madonna sagde at jeg skulle' --allow-empty
+  565  history -w
+  566  git commit -am'døden fra lübeck' --allow-empty
+  567  git commit -am'Checkpoint Charlie' --allow-empty
+  568  git commit -am'Tænk ud af boksen' --allow-empty
+  569  git commit -am'Tyranusaurusnix' --allow-empty
+  570  git commit -am'..,-' --allow-empty
+  571  git commit -am'Klogempge' --allow-empty
+  572  git commit -am'Tour de legeplads begynder' --allow-empty
+  573  git commit -am'Stort træ' --allow-empty
+  574  ssh -i qemukey root@localhost -p 2222 history
+  575  cd
+  576  cd alpine/
+  577  ssh -i qemukey root@localhost -p 2222 history
+  578  scp -i qemukey root@localhost:historie -p 2222 .
+  579  scp -i qemukey -p2222 root@localhost:historie .
+  580  scp -i qemukey -p 2222 root@localhost:historie .
+  581  man scp
+  582  tmux andesvin
+  583  pkg install tmux
+  584  tmux andesvin
+  585  man scp
+  586  scp -i qemukey -P 2222 root@localhost:historie .
+  587  cp historie ~/projects/andesvin-i-eget-flæsk
+  588  cd
+  589  cd projects/andesvin-i-eget-flæsk
+  590  mv historie 
+  591  git status
+  592  mv historie emu-historie 
+  593  history > ~/org/history.org
