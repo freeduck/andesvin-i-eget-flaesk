@@ -105,3 +105,13 @@ level 2 nak en ræv
 ræv på toilet
 måske skulle je blive journalist
 hvad er deres rettigheder¿
+1. mobilfist
+2. k3s
+3. harden
+4. loki
+5. prometheus
+6. kerberos
+7. GDPR compliance test (den skal nok ind før, ny 3.)
+plan 8. jaeger
+iss
+stronger together
