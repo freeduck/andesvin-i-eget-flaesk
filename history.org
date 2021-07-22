@@ -1,508 +1,500 @@
-   94  cat org/jim.org 
-   95  echo "mig selv sagde hunden" >> org/jim.org
-   96  cat org/jim.org 
-   97  echo monero >> org/jim.org
-   98  emacs org/sre.org
-   99  cd projects/coop-notes-private/
-  100  git pull
-  101  apt search lisp
-  102  apt install ecl
-  103  apt install picolisp
-  104  cd
-  105  emacs org/journal.org 
-  106  emacs projects/coop-notes-private/journal.org 
-  107  emacs org/journal.org 
-  108  apt search scheme
-  109  apt search guile
-  110  apt search racket
-  111  emacs
-  112  echo "der vil jeg gerne når jeg sidder med det" >> org/jim.org
-  113  echo "det jeg kommer til at lave" >> org/jim.org
-  114  echo "jeg håber at have noget klar til til uge32, men det afhænger af dig" >> org/jim.org
-  115  echo "alting bliver bedre anden gang" >> org/jim.org
-  116  echo "drykiss joker" >> org/jim.org
-  117  echo "echo \"hello, world\!\"" >> org/jim.org
-  118  cat org/jim.org 
-  119  echo "Eliminer risiko forlokumsaftalt" >> org/jim.org
-  120  echo "få dit navn på den gode løsning" >> org/jim.org
-  121  apt install hunspell-da aspell-da
-  122  echo "wc | test <= $(hvor-lang-er-en-kronik)" >> org/jim.org
-  123  echo "wc | test <= \$(hvor-lang-er-en-kronik)" >> org/jim.org
-  124  echo "the test off kiss" >> org/jim.org
-  125  echo "Øver sig i at spille, rottefængeren" >> org/jim.org
-  126  echo "Loke et ben i hver lejer old school devops bygger bro og får tingene til at ske hvem byggede regnbuen" >> org/jim.org
-  127  echo "Sund fornuft, lad is snakke om det" >> org/jim.org
-  128  emacs org/fritsoftware
-  129  emacs org/fritsoftware.org
-  130  cat org/fritsoftware.org  | wc
-  131  emacs org/fritsoftware.org
-  132  echo "rabbit" >> org/jim.org
-  133  echo "nødudgang exit strategi åben dør" >> org/jim.org
-  134  echo "Mine vogn" >> org/jim.org
-  135  echo "Danish dynamite" >> org/jim.org
-  136  echo "SAFe" >> org/jim.org
-  137  echo "Gurilla warfare" >> org/jim.org
-  138  echo "F16" >> org/jim.org
-  139  echo "Svinehund" >> org/jim.org
-  140  echo "Fri tekst" >> org/jim.org
-  141  echo "fri software- og open source-programmer" >> org/jim.org
-  142  echo "fri krop og sind" >> org/jim.org
-  143  echo "Håndværk" >> org/jim.org
-  144  echo "Maksimal frihed skrive og udføre fysisk arbejde" >> org/jim.org
-  145  echo "Maksimal frihed skrive og udføre fysisk arbejde ryge" >> org/jim.org
-  146  echo "Min far var gør det selver, og jeg går også og roder med alt muligt både fysisk såvel som mentalt" >> org/jim.org
-  147  echo "devout follower of" >> org/jim.org
-  148  echo "egne opstillinger" >> org/jim.org
-  149  echo "tænker arbejde i sin fritid eller fritid på arbejdet så lad os arbejde sammen på en åben og fri platform" >> org/jim.org
-  150  echo "ophavretten til alle værker, fysiske såvel som imaterielle, udgivet eller udarbejdet under ansættelsen, tilfalder medarbejderen. sp længe det sker under en copyleft licens" >> org/jim.org
-  151  echo "gamepad fysisk" >> org/jim.org
-  152  echo "udvider rammen" >> org/jim.org
-  153  cd org/
-  154  git status
-  155  git add .
-  156  git status
-  157  git remote -v
-  158  git commit -am'status'
-  159  git push
-  160  cat .git/config 
-  161  emacs ~/projects/coop-notes-private/.git/config 
-  162  git push
-  163  cd 
-  164  cd org/
-  165  touch hest
-  166  git add hest 
-  167  git commit -m'Flere dyr på gården'
-  168  git push
-  169  cd ..
-  170  echo "jeg har udvidet rammen lidt, min far var gør det selver" >> org/jim.org
-  171  echo "der er en palle i os alle" >> org/jim.org
-  172  echo "hvad gør vi med hockey" >> org/jim.org
-  173  cd org/
-  174  emacs jim.org 
-  175  git commit -am'status'
-  176  git push
-  177  cd
-  178  emacs org/jim.org 
-  179  cd org/
-  180  git diff
-  181  git commit -am 'emne'
-  182  git push
-  183  echo "tysk dødsmetal band der hedder wasserværkswasser" >> org/jim.org
-  184  cd. .
-  185  cd 
-  186  echo "tysk dødsmetal band der hedder wasserværkswasser" >> org/jim.org
-  187  echo "græd ikke over spildt vand" >> org/jim.org
-  188  echo "I min fritid kan jeg gøre som jeg vil, og såfremt jeg udgivet det under en copyleft[1] licens, tilfaldet ophavsretten mig." >> org/jim.org
-  189  echo "Jeg kan ikke tage ikke copyleft kode og offentliggøre det somsådant, men jeg kan lade mig inspirere" >> org/jim.org
-  190  echo "Sund fornuf, og bedste praksis bør altid benyttes" >> org/jim.org
-  191  echo "Men ingen er hævet over et nasty hack" >> org/jim.org
-  192  echo "Den skal muligvis poleres lidt, men jeg synes det holdet vand" >> org/jim.org
-  193  echo "komma^" >> org/jim.org
-  194  cd org/
-  195  git commit -am'rettigheder'
-  196  git push
-  197  cd
-  198  echo "Det kommer til at foregå i det offentlige rum" >> org/jim.org
-  199  cd org/
-  200  git commit -am'Stoisk'
-  201  git push
-  202  git commit -am'Show me yours and I will show you min'
-  203  git commit ammend
-  204  git commit --ammend
-  205  git commit --amend
-  206  git push
-  207  cd
-  208  mkdir ananas-i-egen-juice
-  209  echo "livens ondskab" >> org/jim.org
-  210  head -1 org/jim.org 
-  211  echo "check licensdn der kan gorekomme drager" >> org/jim.org
-  212  echo "pandoc weawing" >> org/jim.org
-  213  echo "1 for alle alle for en, mosketer ed" >> org/jim.org
-  214  echo "Klaphat" >> org/jim.org
-  215  echo "Kan mus lidt gullerødder? can'rotter" >> org/jim.org
-  216  echo "Darkmarket" >> org/jim.org
-  217  echo "cylender" >> org/jim.org
-  218  echo "mega hummer hotdog" >> org/jim.org
-  219  echo "den onde fe" >> org/jim.org
-  220  echo "balder" >> org/jim.org
-  221  echo "det kister spidsen af en jetjager" >> org/jim.org
-  222  echo "den dybe tallerken" >> org/jim.org
-  223  echo "the ice is melting at the poles" >> org/jim.org
-  224  history > org/history.org
-  225  cat org/history.org 
-  226  cd org/
-  227  git add .
-  228  git commit -m'historie'
-  229  git push
-  230  emacs RETTIGHEDER.org
-  231  git add .
-  232  git commoit -m'status'
-  233  git commit -m'status'
-  234  git push
-  235  cd 
-  236  echo "Det er agurketid" >> org/jim.org
-  237  echo "Naivt at afskrive kammerateri som uvidenhed" >> org/jim.org
-  238  echo "Nu er katten ude af pose" >> org/jim.org
-  239  echo "Vand under broen" >> org/jim.org
-  240  echo "Jeg aner ikke hvad der foregik, det var et stort cirkus" >> org/jim.org
-  241  echo "Vi må passe på dyrene og deres habitat" >> org/jim.org
-  242  echo "banging with the hammer" >> org/jim.org
-  243  echo "eller måske dask-top hvad derikker møller" >> org/jim.org
-  244  echo "Sprængful af gode ideer" >> org/jim.org
-  245  echo "bacon vs ananas, ananas et mere oppe i tiden" >> org/jim.org
-  246  echo "jeg er begyndt at lære levan polka, men den sidder ikke helt i skabet endnu" >> org/jim.org
-  247  history > org/history.org
-  248  cd org/
-  249  git status
-  250  git commit -am'Extended history'
-  251  git push
-  252  cd
-  253  echo "Jeg er et menneske med en bred smag, der har prøvet lidt af hvert" >> org/jim.org
-  254  echo "Jeg har brugt Jim som min lomme psykolog" >> org/jim.org
-  255  echo "Jeg har brugt Jim fm. som min lomme psykolog" >> org/jim.org
-  256  history > org/history.org
-  257  echo "Jeg har brugt Jim mf. som min lomme psykolog" >> org/jim.org
-  258  history > org/history.org
-  259  cd org
-  260  git commit -am'ikke flere smøger, jeg må på det sorte marked'
-  261  git push
-  262  cd 
-  263  tar czvg org.tar.gz
-  264  tar czvf org.tar.gz org/
-  265  gpg -c org.tar.gz 
-  266  cp org.tar.gz.gpg storage/downloads
-  267  echo "Vi gør det forkert, jeg skriver dette brev tildels i afmagt og vanvitig arigsbab" >> org/jim.org
-  268  echo "Jeg er ikke jurist, så jeg har brug for lidt hjælp" >> org/jim.org
-  269  echo "Min plan var egentlig at vente til jul, og lave et revy nummer, men jeg er simpelthen så indebrandt" >> org/jim.org
-  270  gpg --import storage/downloads/lomvie.pub 
-  271  emacs org/.git/config 
-  272  git --fingerprint
-  273  gpg --fingerprint
-  274  emacs org/.git/config 
-  275  cd org
-  276  git commit --help
-  277  git commit --help | grep empty
-  278  git commit --allow-empty "Add recipient"
-  279  git commit --allow-empty -m"Add recipient"
-  280  git push
-  281  git --fingerprint
-  282  gpg --fingerprint
-  283  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk
-  284  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/one.key
-  285  gpg --export --armor LomvieHvalrosSagebrush3016@freeduck.dk > ~/storage/downloads/one.key
-  286  gpg --fingerprint
-  287  gpg --export --armor freeduck@member.fsf.org > ~/storage/downloads/secondone.pub
-  288  git status
-  289  git diff
-  290  cd
-  291  history > org/history.org
-  292  cd org
-  293  git commit -m'Vi skal have det hele med'
-  294  git commit -am'Vi skal have det hele med'
-  295  git push
-  296  cat history.org 
-  297  cd ..
-  298  echo "Recycle jeg laver det samme, fælles pizzabund" >> org/jim.org
-  299  echo "Corona fritagelses PAS" >> org/jim.org
-  300  python
-  301  cd org
-  302  mkdir bin
-  303  cd bin/
-  304  emacs jim
-  305  chmod +x jim 
-  306  ./jim hest
-  307  cat ~/org/jim.org 
-  308  emacs jim
-  309  ./jim # &⚆$
-  310  cat ~/org/jim.org 
-  311  ./jim \# &⚆$
-  312  ./jim \# \&⚆\$
-  313  cat ~/org/jim.org 
-  314  cd
-  315  history > org/history.org
-  316  cd org
-  317  git add .
-  318  git commit -m"Jim i egen juice
-  319  git commit -m'Jim i egen juice'
-  320  git push
-  321  git remte -v
-  322  git remote -v
-  323  git remote add hoodieless git@git.sr.ht:~freeduck/notes
-  324  git push -f hooodieless trunk:trunk
-  325  git fetch hoodieless
-  326  git branch
-  327  git push -f hooodieless trunk:trunk
-  328  git push -f hoodieless trunk:trunk
-  329  export PATH=~/org/bin:$PATH
-  330  jim det var der allerede
-  331  history > ~/org/history.org
-  332  cat history.org 
-  333  jim de var der allerede
-  334  git add .
-  335  git commit -m'Lidt mere historie'
-  336  git push
-  337  git push hoodieless trunk:trunk
-  338  jim tør jeg tage ordet koruption i min munf, nej vi må nok heller kalde det velstillet "kammerateri"
-  339  cat jim.org 
-  340  vi jim.org 
-  341  git add .
-  342  git commit -m"Kammmerateri"
-  343  git push
-  344  git push hoodieless trunk:trunk
-  345  jim feriehjerne
-  346  jim andesvin i svøb
-  347  jim husk børnene
-  348  cat jim.org 
-  349  git ststus
-  350  git status
-  351  git commit -am'Tænk på børnen'
-  352  git push hoodieless trunk:trunk
-  353  cat jim.org 
-  354  jim papaduckpig
-  355  jim tidligere konsulenter nu kendt som DJØFØFere, i ledende poster hyrer deres venner
-  356  jim ide til spil: nak en DJØFØFer, en slags 2. til mujaffa spillet hvor man sidder shutgun og nakker DJØFØF er, jeg tæmger afbilledet som et svin
-  357  vi jim.org 
-  358  history > ~/org/history.org
-  359  cat history.org 
-  360  git commit -am'GAME ON'
-  361  git push hoodieless trunk:trunk
-  362  git status
-  363  jim et svin i jakkesæt
-  364  jim køb billeder af pillitikkere
-  365  level 2 nak en ræv
-  366  jim level 2 nak en ræv
-  367  jim ræv på toilet
-  368  jim måske skulle je blive journalist
-  369  jim hvad er deres rettigheder\¿
-  370  cat jim.org 
-  371  git commit -am'Level 2'
-  372  git push
-  373  git push hoodieless trunk:trunk
-  374  jim 1. mobilfist
-  375  jim 2. k3s
-  376  jim 3. harden
-  377  jim 4. loki
-  378  jim 5. prometheus
-  379  jim 6. kerberos 
-  380  git commit -am'plan'
-  381  jim 7. GDPR compliance test (den skal nok ind før, ny 3. 
-  382  jim 7. GDPR compliance test \(den skal nok ind før, ny 3.\) 
-  383  git commit -am'revediret plan'
-  384  git push hoodieless trunk:trunk
-  385  jim plan 8. jaeger
-  386  cd
-  387  ls
-  388  ls praesentation/
-  389  ls projects/
-  390  ls alpine/
-  391  jim iss
-  392  jim stronger together
-  393  cd org
-  394  git status
-  395  git commit --am'sidste besked til jim'
-  396  git commit -am'sidste besked til jim'
-  397  git push hoodieless trunk:trunk
-  398  ls
-  399  cd bin/
-  400  cd
-  401  cd projects/
-  402  ls
-  403  git clone git@github.com:freeduck/ananas-i-egen-juice.git
-  404  cd ananas-i-egen-juice/
-  405  mkdir bin
-  406  git cp notes/bin/jim 
-  407  cp notes/bin/jim bin/historie
-  408  cd bin/
-  409  emacs historie 
-  410  git rev-parse --show-toplevel
-  411  cd
-  412  cd org
-  413  cd bin/
-  414  git mv jim dagbog
-  415  emacs
-  416  chmod +x dagbog
-  417  dagbog dagbog
-  418  git statys
-  419  git status
-  420  git add .
-  421  git status
-  422  git add ..
-  423  git status
-  424  git comnit -m'Historien skriver sig selv'
-  425  git commit -m'Historien skriver sig selv'
-  426  cd
-  427  dagbog cmpmed gdpr
-  428  cd org/bin/
-  429  emacs dagbog 
+   74  cat ~/org/jim.org 
+   75  ./jim \# &⚆$
+   76  ./jim \# \&⚆\$
+   77  cat ~/org/jim.org 
+   78  cd
+   79  history > org/history.org
+   80  cd org
+   81  git add .
+   82  git commit -m"Jim i egen juice
+   83  git commit -m'Jim i egen juice'
+   84  git push
+   85  git remte -v
+   86  git remote -v
+   87  git remote add hoodieless git@git.sr.ht:~freeduck/notes
+   88  git push -f hooodieless trunk:trunk
+   89  git fetch hoodieless
+   90  git branch
+   91  git push -f hooodieless trunk:trunk
+   92  git push -f hoodieless trunk:trunk
+   93  export PATH=~/org/bin:$PATH
+   94  jim det var der allerede
+   95  history > ~/org/history.org
+   96  cat history.org 
+   97  jim de var der allerede
+   98  git add .
+   99  git commit -m'Lidt mere historie'
+  100  git push
+  101  git push hoodieless trunk:trunk
+  102  jim tør jeg tage ordet koruption i min munf, nej vi må nok heller kalde det velstillet "kammerateri"
+  103  cat jim.org 
+  104  vi jim.org 
+  105  git add .
+  106  git commit -m"Kammmerateri"
+  107  git push
+  108  git push hoodieless trunk:trunk
+  109  jim feriehjerne
+  110  jim andesvin i svøb
+  111  jim husk børnene
+  112  cat jim.org 
+  113  git ststus
+  114  git status
+  115  git commit -am'Tænk på børnen'
+  116  git push hoodieless trunk:trunk
+  117  cat jim.org 
+  118  jim papaduckpig
+  119  jim tidligere konsulenter nu kendt som DJØFØFere, i ledende poster hyrer deres venner
+  120  jim ide til spil: nak en DJØFØFer, en slags 2. til mujaffa spillet hvor man sidder shutgun og nakker DJØFØF er, jeg tæmger afbilledet som et svin
+  121  vi jim.org 
+  122  history > ~/org/history.org
+  123  cat history.org 
+  124  git commit -am'GAME ON'
+  125  git push hoodieless trunk:trunk
+  126  git status
+  127  jim et svin i jakkesæt
+  128  jim køb billeder af pillitikkere
+  129  level 2 nak en ræv
+  130  jim level 2 nak en ræv
+  131  jim ræv på toilet
+  132  jim måske skulle je blive journalist
+  133  jim hvad er deres rettigheder\¿
+  134  cat jim.org 
+  135  git commit -am'Level 2'
+  136  git push
+  137  git push hoodieless trunk:trunk
+  138  jim 1. mobilfist
+  139  jim 2. k3s
+  140  jim 3. harden
+  141  jim 4. loki
+  142  jim 5. prometheus
+  143  jim 6. kerberos 
+  144  git commit -am'plan'
+  145  jim 7. GDPR compliance test (den skal nok ind før, ny 3. 
+  146  jim 7. GDPR compliance test \(den skal nok ind før, ny 3.\) 
+  147  git commit -am'revediret plan'
+  148  git push hoodieless trunk:trunk
+  149  jim plan 8. jaeger
+  150  cd
+  151  ls
+  152  ls praesentation/
+  153  ls projects/
+  154  ls alpine/
+  155  jim iss
+  156  jim stronger together
+  157  cd org
+  158  git status
+  159  git commit --am'sidste besked til jim'
+  160  git commit -am'sidste besked til jim'
+  161  git push hoodieless trunk:trunk
+  162  ls
+  163  cd bin/
+  164  cd
+  165  cd projects/
+  166  ls
+  167  git clone git@github.com:freeduck/ananas-i-egen-juice.git
+  168  cd ananas-i-egen-juice/
+  169  mkdir bin
+  170  git cp notes/bin/jim 
+  171  cp notes/bin/jim bin/historie
+  172  cd bin/
+  173  emacs historie 
+  174  git rev-parse --show-toplevel
+  175  cd
+  176  cd org
+  177  cd bin/
+  178  git mv jim dagbog
+  179  emacs
+  180  chmod +x dagbog
+  181  dagbog dagbog
+  182  git statys
+  183  git status
+  184  git add .
+  185  git status
+  186  git add ..
+  187  git status
+  188  git comnit -m'Historien skriver sig selv'
+  189  git commit -m'Historien skriver sig selv'
+  190  cd
+  191  dagbog cmpmed gdpr
+  192  cd org/bin/
+  193  emacs dagbog 
+  194  cd
+  195  dagbog cphmed gdpr
+  196  emacs org/bin/dagbog 
+  197  dagbog hest
+  198  emacs org/bin/dagbog 
+  199  dagbog cphmed gdpr
+  200  cd org
+  201  cat dagbog.org 
+  202  dagbog man kan komme langt med bash
+  203  dagbog laksebøffer
+  204  dagbog inkscape gnu fdl golden ring logo
+  205  dagbog hvem står fadder til p59?
+  206  dagbog gudenåen
+  207  husk nu  | x x + O
+  208  dagbog husk nu  | x x + O
+  209  dagbog husk nu  \| x x + O
+  210  dagbog Kfz-Prüfstelle Berlin-Wedding/ FSP Prüfstelle/ Partner des TÜV Rheinland, Provinzstraße 8-9, 13409 Berlin, Tyskland
+  211  emacs dagbog.org 
+  212  dagbog milkshake hoppeborg
+  213  dagbog Hüpfburgen Familienpark Berlin, Tyskland
+  214  exit
+  215  export PATH=~/org/bin:$PATH
+  216  find -name dagbog
+  217  dagbog håndværk
+  218  dagbog negativer
+  219  dagbog guffer
+  220  dagbog guffer "-times- [ E.B. =🍎&0}≡ ] selfie
+  221  cd org
+  222  dagbog ""-times- [ E.B. =🍎&0}≡ ] selfie"
+  223  dagbog "-times- [ E.B. =🍎&0}≡ ] selfie"
+  224  cd org
+  225  cat dagbog.org 
+  226  git commit -am'status'
+  227  dagbog "Der var meget cover your ass"
+  228  cd
+  229  sudo apt-get install nodejs npm build-essential libunbound-dev
+  230  apt-get install nodejs npm build-essential libunbound-dev
+  231  cp storage/downloads/go-ipfs_v0.9.0_linux-arm64.tar.gz .
+  232  tar xzvf go-ipfs_v0.9.0_linux-arm64.tar.gz 
+  233  ./go-ipfs/install.sh 
+  234  which bash
+  235  co go-ipfs/ipfs /data/data/com.termux/files/usr/local/bin/
+  236  cp go-ipfs/ipfs /data/data/com.termux/files/usr/local/bin/
+  237  chmod +x /data/data/com.termux/files/usr/local/bin
+  238  ls -la /data/data/com.termux/files/usr/local/bin
+  239  ls -la /data/data/com.termux/files/usr/local/bin/ipfs init
+  240  /data/data/com.termux/files/usr/local/bin/ipfs init
+  241  vi .bashrc 
+  242  cd storage/
+  243  ls -ls
+  244  cd
+  245  cp -r  projects /storage/emulated/0
+  246  cd projects/
+  247  mkdir andesvin-i-eget-flæsk
+  248  cd andesvin-i-eget-flæsk/
+  249  git init
+  250  git comnit -m'Børnene sover' --allow-empty
+  251  git commit -m'Børnene sover' --allow-empty
+  252  git commit -m'Rutchebanen var lukket' --allow-empty
+  253  git commit -'Jæderne klarrede vi hurtigt' --allow-empty
+  254  git commit -m'Jæderne klarrede vi hurtigt' --allow-empty
+  255  git commit -m'perspektiv' --allow-empty
+  256  git commit -m'hvem er du' --allow-empty
+  257  git commit -m'Sejersporten' --allow-empty
+  258  cd
+  259  ls
+  260  cd alpine/
+  261  ls
+  262  ./startqemu.sh 
+  263  cd 
+  264  cd projects/
+  265  bkeer
+  266  køkkenrulle
+  267  surcreme og løg
+  268  lighter nicht
+  269  history 
+  270  cd andesvin-i-eget-flæsk/
+  271  git commit -m'jep vi kan godt' --allow-empty
+  272  git commit -m'Rabies/corona flagremus' --allow-empty
+  273  git commit -m'Et andet perspektiv' --allow-empty
+  274  git commit -m'også et fedt navn til et tysk dødmetal band' --allow-empty
+  275  cd
+  276  cd org
+  277  git status
+  278  history > ~/org/history.org
+  279  git commit -am'i kufferten med dig'
+  280  git push hoodieless trunk:trunk
+  281  cd
+  282  cd projects/andesvin-i-eget-flæsk/
+  283  git commit -am'Side 13 bobler'
+  284  git commit -am'Den skindbarlige sandhed del 1'
+  285  git commit -am'Trüb  ~= overskyet eller prikket'
+  286  history
+  287  git commit -am'Den skindbarlige sandhed del 2
+  288  giv mig et ring, check historikken ;-)
+  289  '
+  290  git commit -am'Den skindbarlige sandhed del 2
+  291  giv mig et ring, check historikken ;-)
+  292  ' --allow-empty
+  293  git commit -am'Grib fat om roden, og riv ukrudtet væk'
+  294  git commit -am'Grib fat om roden, og riv ukrudtet væk' --allow-empty
+  295  git log
+  296  cd
+  297  apt-get install -y git-crypt
+  298  cd projects/andesvin-i-eget-flæsk/
+  299  git-crypt init
+  300  mkdir private-room
+  301  cp ~/storage/pictures/IMG_20210719_2312* private-room/
+  302  vi gitattributes
+  303  vi .gitattributes
+  304  ls private-room
+  305  git-crypt status -e
+  306  vi .gitattributes
+  307  git-crypt status -e
+  308  git status
+  309  git log
+  310  git rebase --help
+  311  git rebase -i 4dad643750e143636c9a0d083185bcd251df110c
+  312  git status
+  313  git add .
+  314  git commit --amend
+  315  cd ..
+  316  git clone --bare andesvin-i-eget-flæsk andesvin-i-eget-flæsk.git
+  317  git clone andesvin-i-eget-flæsk.git andesvin-i-eget-flæsk-new
+  318  cd andesvin-i-eget-flæsk-new/
+  319  git checkout trunk
+  320  ls la
+  321  ls -la
+  322  cd .. 
+  323  cd andesvin-i-eget-flæsk
+  324  git rebase --continue
+  325  cd ..
+  326  cd andesvin-i-eget-flæsk
+  327  git commit -am'I kan blame mig for det hele' --allow-empty
+  328  git commit -am'Så langt så godt' --allow-empty
+  329  git commit -am'Jeg vil være bærnenes ambasadør' --allow-empty
+  330  jens daygaard
+  331  history 
+  332  git commit -am'Jeg høre stemmer i radioen, og Madonna sagde at jeg skulle' --allow-empty
+  333  history -w
+  334  cd alpine/
+  335  ls
+  336  ./startqemu.sh 
+  337  cd 
+  338  cd projects/
+  339  bkeer
+  340  køkkenrulle
+  341  surcreme og løg
+  342  lighter nicht
+  343  history 
+  344  cd andesvin-i-eget-flæsk/
+  345  git commit -m'jep vi kan godt' --allow-empty
+  346  git commit -m'Rabies/corona flagremus' --allow-empty
+  347  git commit -m'Et andet perspektiv' --allow-empty
+  348  git commit -m'også et fedt navn til et tysk dødmetal band' --allow-empty
+  349  cd
+  350  cd org
+  351  git status
+  352  history > ~/org/history.org
+  353  git commit -am'i kufferten med dig'
+  354  git push hoodieless trunk:trunk
+  355  cd
+  356  cd projects/andesvin-i-eget-flæsk/
+  357  git commit -am'Side 13 bobler'
+  358  git commit -am'Den skindbarlige sandhed del 1'
+  359  git commit -am'Trüb  ~= overskyet eller prikket'
+  360  history
+  361  git commit -am'Den skindbarlige sandhed del 2
+  362  giv mig et ring, check historikken ;-)
+  363  '
+  364  git commit -am'Den skindbarlige sandhed del 2
+  365  giv mig et ring, check historikken ;-)
+  366  ' --allow-empty
+  367  git commit -am'Grib fat om roden, og riv ukrudtet væk'
+  368  git commit -am'Grib fat om roden, og riv ukrudtet væk' --allow-empty
+  369  git log
+  370  cd
+  371  apt-get install -y git-crypt
+  372  cd projects/andesvin-i-eget-flæsk/
+  373  git-crypt init
+  374  mkdir private-room
+  375  cp ~/storage/pictures/IMG_20210719_2312* private-room/
+  376  vi gitattributes
+  377  vi .gitattributes
+  378  ls private-room
+  379  git-crypt status -e
+  380  vi .gitattributes
+  381  git-crypt status -e
+  382  git status
+  383  git log
+  384  git rebase --help
+  385  git rebase -i 4dad643750e143636c9a0d083185bcd251df110c
+  386  git status
+  387  git add .
+  388  git commit --amend
+  389  cd ..
+  390  git clone --bare andesvin-i-eget-flæsk andesvin-i-eget-flæsk.git
+  391  git clone andesvin-i-eget-flæsk.git andesvin-i-eget-flæsk-new
+  392  cd andesvin-i-eget-flæsk-new/
+  393  git checkout trunk
+  394  ls la
+  395  ls -la
+  396  cd .. 
+  397  cd andesvin-i-eget-flæsk
+  398  git rebase --continue
+  399  cd ..
+  400  cd andesvin-i-eget-flæsk
+  401  git commit -am'I kan blame mig for det hele' --allow-empty
+  402  git commit -am'Så langt så godt' --allow-empty
+  403  git commit -am'Jeg vil være bærnenes ambasadør' --allow-empty
+  404  jens daygaard
+  405  history 
+  406  git commit -am'Jeg høre stemmer i radioen, og Madonna sagde at jeg skulle' --allow-empty
+  407  history -w
+  408  git commit -am'døden fra lübeck' --allow-empty
+  409  git commit -am'Checkpoint Charlie' --allow-empty
+  410  git commit -am'Tænk ud af boksen' --allow-empty
+  411  git commit -am'Tyranusaurusnix' --allow-empty
+  412  git commit -am'..,-' --allow-empty
+  413  git commit -am'Klogempge' --allow-empty
+  414  git commit -am'Tour de legeplads begynder' --allow-empty
+  415  git commit -am'Stort træ' --allow-empty
+  416  ssh -i qemukey root@localhost -p 2222 history
+  417  cd
+  418  cd alpine/
+  419  ssh -i qemukey root@localhost -p 2222 history
+  420  scp -i qemukey root@localhost:historie -p 2222 .
+  421  scp -i qemukey -p2222 root@localhost:historie .
+  422  scp -i qemukey -p 2222 root@localhost:historie .
+  423  man scp
+  424  tmux andesvin
+  425  pkg install tmux
+  426  tmux andesvin
+  427  man scp
+  428  scp -i qemukey -P 2222 root@localhost:historie .
+  429  cp historie ~/projects/andesvin-i-eget-flæsk
   430  cd
-  431  dagbog cphmed gdpr
-  432  emacs org/bin/dagbog 
-  433  dagbog hest
-  434  emacs org/bin/dagbog 
-  435  dagbog cphmed gdpr
-  436  cd org
-  437  cat dagbog.org 
-  438  dagbog man kan komme langt med bash
-  439  dagbog laksebøffer
-  440  dagbog inkscape gnu fdl golden ring logo
-  441  dagbog hvem står fadder til p59?
-  442  dagbog gudenåen
-  443  husk nu  | x x + O
-  444  dagbog husk nu  | x x + O
-  445  dagbog husk nu  \| x x + O
-  446  dagbog Kfz-Prüfstelle Berlin-Wedding/ FSP Prüfstelle/ Partner des TÜV Rheinland, Provinzstraße 8-9, 13409 Berlin, Tyskland
-  447  emacs dagbog.org 
-  448  dagbog milkshake hoppeborg
-  449  dagbog Hüpfburgen Familienpark Berlin, Tyskland
-  450  exit
-  451  export PATH=~/org/bin:$PATH
-  452  find -name dagbog
-  453  dagbog håndværk
-  454  dagbog negativer
-  455  dagbog guffer
-  456  dagbog guffer "-times- [ E.B. =🍎&0}≡ ] selfie
-  457  cd org
-  458  dagbog ""-times- [ E.B. =🍎&0}≡ ] selfie"
-  459  dagbog "-times- [ E.B. =🍎&0}≡ ] selfie"
-  460  cd org
-  461  cat dagbog.org 
-  462  git commit -am'status'
-  463  dagbog "Der var meget cover your ass"
-  464  cd
-  465  sudo apt-get install nodejs npm build-essential libunbound-dev
-  466  apt-get install nodejs npm build-essential libunbound-dev
-  467  cp storage/downloads/go-ipfs_v0.9.0_linux-arm64.tar.gz .
-  468  tar xzvf go-ipfs_v0.9.0_linux-arm64.tar.gz 
-  469  ./go-ipfs/install.sh 
-  470  which bash
-  471  co go-ipfs/ipfs /data/data/com.termux/files/usr/local/bin/
-  472  cp go-ipfs/ipfs /data/data/com.termux/files/usr/local/bin/
-  473  chmod +x /data/data/com.termux/files/usr/local/bin
-  474  ls -la /data/data/com.termux/files/usr/local/bin
-  475  ls -la /data/data/com.termux/files/usr/local/bin/ipfs init
-  476  /data/data/com.termux/files/usr/local/bin/ipfs init
-  477  vi .bashrc 
-  478  cd storage/
-  479  ls -ls
-  480  cd
-  481  cp -r  projects /storage/emulated/0
-  482  cd projects/
-  483  mkdir andesvin-i-eget-flæsk
-  484  cd andesvin-i-eget-flæsk/
-  485  git init
-  486  git comnit -m'Børnene sover' --allow-empty
-  487  git commit -m'Børnene sover' --allow-empty
-  488  git commit -m'Rutchebanen var lukket' --allow-empty
-  489  git commit -'Jæderne klarrede vi hurtigt' --allow-empty
-  490  git commit -m'Jæderne klarrede vi hurtigt' --allow-empty
-  491  git commit -m'perspektiv' --allow-empty
-  492  git commit -m'hvem er du' --allow-empty
-  493  git commit -m'Sejersporten' --allow-empty
-  494  cd
-  495  ls
-  496  cd alpine/
+  431  cd projects/andesvin-i-eget-flæsk
+  432  mv historie 
+  433  git status
+  434  mv historie emu-historie 
+  435  history > ~/org/history.org
+  436  git add .
+  437  git status
+  438  git log
+  439  ls la
+  440  ls -la
+  441  cd
+  442  cd org
+  443  git status
+  444  git commit -'Evakuer Emuen'
+  445  git commit -am'Evakuer Emuen'
+  446  cd
+  447  cd projects/
+  448  cd andesvin-i-eget-flæsk
+  449  git status
+  450  git commit -m'Besked fra Emuland
+  451  Skibet vil ikke sejle'
+  452  git commit -am'V|---👼 victory column' --allow-empty
+  453  git commit -am'Set->attribute kiss' --allow-empty
+  454  git commit -am'Reflexplast' --allow-empty
+  455  git commit -am'Corina sized team' --allow-empty
+  456  git commit -am'Frileg, dem som ikke følger den rette tro, skal visne og død, og brænde i helvede' --allow-empty
+  457  git commit -am'Bjørne sover' --allow-empty
+  458  cd
+  459  cd projects/
+  460  cd 
+  461  cd alpine/
+  462  cat ssh2qemu.sh 
+  463  apt search wormhole
+  464  apt search magic wormhole
+  465  pip3 install magic-wormhole
+  466  cd projects/andesvin-i-eget-flæsk
+  467  git commit -am'Der skal helst være et ulige antal så vi kan få en beslutning' --allow-empty
+  468  cd ..
+  469  ls andesvin-i-eget-flæsk-new/.git/
+  470  ls andesvin-i-eget-flæsk-new/.git/refs/
+  471  ls andesvin-i-eget-flæsk-new/.git/refs/heads/
+  472  cd andesvin-i-eget-flæsk-new/
+  473  git checkoit trunk
+  474  git checkout trunk
+  475  ls
+  476  cd ..
+  477  ls andesvin-i-eget-flæsk
+  478  rm -rf andesvin-i-eget-flæsk{.git,-new}
+  479  exit
+  480  ipfs -d
+  481  ipfs --daemon
+  482  ipfs --help
+  483  ipfs daemon
+  484  exit
+  485  ipfs swarm peers
+  486  cd projects/
+  487  git clone http://ipfs.io/ipfs/QmWxkUyu9d9m4XsC51QnyP3iLusi3UJbpvG6v3Wsz7ytBW blog-of-knj
+  488  vi hest
+  489  exit
+  490  git clone http://QmWxkUyu9d9m4XsC51QnyP3iLusi3UJbpvG6v3Wsz7ytBW.ipfs.localhost:8080/ blog-of-knj2
+  491  exit
+  492  cd projects/andesvin-i-eget-flæsk/
+  493  git commit -am'Der' --allow-empty
+  494  git commit -am'Connecting the dots' --allow-empty
+  495  cd
+  496  cd storage/
   497  ls
-  498  ./startqemu.sh 
-  499  cd 
-  500  cd projects/
-  501  bkeer
-  502  køkkenrulle
-  503  surcreme og løg
-  504  lighter nicht
-  505  history 
-  506  cd andesvin-i-eget-flæsk/
-  507  git commit -m'jep vi kan godt' --allow-empty
-  508  git commit -m'Rabies/corona flagremus' --allow-empty
-  509  git commit -m'Et andet perspektiv' --allow-empty
-  510  git commit -m'også et fedt navn til et tysk dødmetal band' --allow-empty
-  511  cd
-  512  cd org
-  513  git status
-  514  history > ~/org/history.org
-  515  git commit -am'i kufferten med dig'
-  516  git push hoodieless trunk:trunk
+  498  cd dcim/Camera/
+  499  ls -la
+  500  cd ..
+  501  tar czvf ~/pics.tar.gz Camera/
+  502  cd
+  503  ls -tr1
+  504  cp pics.tar.gz storage/downloads
+  505  ls - storage/
+  506  ls -l storage/
+  507  ls -l /storage
+  508  ls /storage/emulated/0/Download
+  509  cd
+  510  cd projects/
+  511  tar czvf andesvin-i-eget-flæsk.tar.gz andesvin-i-eget-flæsk
+  512  cp andesvin-i-eget-flæsk.tar.gz ~/storage/downloads
+  513  cd
+  514  cd projects/andesvin-i-eget-flæsk
+  515  git commit -am'Jeg har skåret kraftigt ned, under en halv oakke om dagen' --allow-empty
+  516  cd ../ananas-i-egen-juice/
   517  cd
-  518  cd projects/andesvin-i-eget-flæsk/
-  519  git commit -am'Side 13 bobler'
-  520  git commit -am'Den skindbarlige sandhed del 1'
-  521  git commit -am'Trüb  ~= overskyet eller prikket'
-  522  history
-  523  git commit -am'Den skindbarlige sandhed del 2
-
-giv mig et ring, check historikken ;-)
-
-'
-  524  git commit -am'Den skindbarlige sandhed del 2
-
-giv mig et ring, check historikken ;-)
-
-' --allow-empty
-  525  git commit -am'Grib fat om roden, og riv ukrudtet væk'
-  526  git commit -am'Grib fat om roden, og riv ukrudtet væk' --allow-empty
-  527  git log
-  528  cd
-  529  apt-get install -y git-crypt
-  530  cd projects/andesvin-i-eget-flæsk/
-  531  git-crypt init
-  532  mkdir private-room
-  533  cp ~/storage/pictures/IMG_20210719_2312* private-room/
-  534  vi gitattributes
-  535  vi .gitattributes
-  536  ls private-room
-  537  git-crypt status -e
-  538  vi .gitattributes
-  539  git-crypt status -e
-  540  git status
-  541  git log
-  542  git rebase --help
-  543  git rebase -i 4dad643750e143636c9a0d083185bcd251df110c
-  544  git status
-  545  git add .
-  546  git commit --amend
-  547  cd ..
-  548  git clone --bare andesvin-i-eget-flæsk andesvin-i-eget-flæsk.git
-  549  git clone andesvin-i-eget-flæsk.git andesvin-i-eget-flæsk-new
-  550  cd andesvin-i-eget-flæsk-new/
-  551  git checkout trunk
-  552  ls la
-  553  ls -la
-  554  cd .. 
-  555  cd andesvin-i-eget-flæsk
-  556  git rebase --continue
-  557  cd ..
-  558  cd andesvin-i-eget-flæsk
-  559  git commit -am'I kan blame mig for det hele' --allow-empty
-  560  git commit -am'Så langt så godt' --allow-empty
-  561  git commit -am'Jeg vil være bærnenes ambasadør' --allow-empty
-  562  jens daygaard
-  563  history 
-  564  git commit -am'Jeg høre stemmer i radioen, og Madonna sagde at jeg skulle' --allow-empty
-  565  history -w
-  566  git commit -am'døden fra lübeck' --allow-empty
-  567  git commit -am'Checkpoint Charlie' --allow-empty
-  568  git commit -am'Tænk ud af boksen' --allow-empty
-  569  git commit -am'Tyranusaurusnix' --allow-empty
-  570  git commit -am'..,-' --allow-empty
-  571  git commit -am'Klogempge' --allow-empty
-  572  git commit -am'Tour de legeplads begynder' --allow-empty
-  573  git commit -am'Stort træ' --allow-empty
-  574  ssh -i qemukey root@localhost -p 2222 history
-  575  cd
-  576  cd alpine/
-  577  ssh -i qemukey root@localhost -p 2222 history
-  578  scp -i qemukey root@localhost:historie -p 2222 .
-  579  scp -i qemukey -p2222 root@localhost:historie .
-  580  scp -i qemukey -p 2222 root@localhost:historie .
-  581  man scp
-  582  tmux andesvin
-  583  pkg install tmux
-  584  tmux andesvin
-  585  man scp
-  586  scp -i qemukey -P 2222 root@localhost:historie .
-  587  cp historie ~/projects/andesvin-i-eget-flæsk
-  588  cd
-  589  cd projects/andesvin-i-eget-flæsk
-  590  mv historie 
-  591  git status
-  592  mv historie emu-historie 
-  593  history > ~/org/history.org
+  518  cd org
+  519  grep --rin copy left
+  520  grep -rin copy left
+  521  grep -rin 'copy left'
+  522  grep -rin 'copyleft'
+  523  git lig
+  524  git log
+  525  cd
+  526  cd alpine/
+  527  ls
+  528  cat startqemu.sh 
+  529  ipfs swarm peers
+  530  cd ..
+  531  mkdir kodriver
+  532  cd kodriver/
+  533  emacs notes.org
+  534  git init
+  535  git add notes.org 
+  536  git commit -m'Igang med rancher togo'
+  537  cd ..
+  538  cd projects/
+  539  git clone git@github.com:freeduck/kodriver.git
+  540  cd kodriver/
+  541  cp ~/kodriver/notes.org 
+  542  cp ~/kodriver/notes.org .
+  543  git add notes.org 
+  544  git commit -m'k3s TOGO'
+  545  git push
+  546  emacs notes.org 
+  547  git log
+  548  cd
+  549  cd projects/andesvin-i-eget-flæsk
+  550  mkdir -p ideer/hellbladet
+  551  mkdir -p ideer/WasserpflanzeWasser
+  552  mkdir -p ideer/SaltedeHjerter
+  553  mv ideer/hellbladet/ ideer/Hellbladet
+  554  git add ideer/
+  555  git commit -am'Ideer'
+  556  giy status
+  557  git status
+  558  touch ideer/Hellbladet/.kitkeep
+  559  touch ideer/WasserpflanzeWasser/.gitkeep
+  560  touch ideer/SaltedeHjerter/.gitkeep
+  561  git add ideer/
+  562  git commit -m'Ideer'
+  563  git push
+  564  ls -la
+  565  git branch
+  566  git remote add hub
+  567  git remote add hub git@github.com:freeduck/andesvin-i-eget-flaesk.git
+  568  git rebase hub/main
+  569  git fetch hub
+  570  git rebase hub/main
+  571  git log
+  572  cat LICENSE 
+  573  history > ~/org/history.org
