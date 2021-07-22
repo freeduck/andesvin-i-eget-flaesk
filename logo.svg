@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="430.26187"
-     inkscape:cy="812.83853"
+     inkscape:zoom="1.979899"
+     inkscape:cx="425.89552"
+     inkscape:cy="527.97475"
      inkscape:document-units="mm"
      inkscape:current-layer="layer5"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -801,6 +801,42 @@
            x="127.27166"
            id="tspan5042"
            sodipodi:role="line">0</tspan></text>
+      <text
+         inkscape:label="diller"
+         id="textdiller-3"
+         y="175.45052"
+         x="104.60111"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+           y="175.45052"
+           x="104.60111"
+           id="tspan530-6"
+           sodipodi:role="line">///////////////</tspan></text>
+      <text
+         inkscape:label="diller"
+         id="textdiller-7"
+         y="175.33879"
+         x="103.54157"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#aa0000;stroke-width:0.26458332"
+           y="175.33879"
+           x="103.54157"
+           id="tspan530-5"
+           sodipodi:role="line">///////////////</tspan></text>
+      <text
+         inkscape:label="diller"
+         id="textdiller-3-3"
+         y="175.49763"
+         x="106.08911"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+           y="175.49763"
+           x="106.08911"
+           id="tspan530-6-5"
+           sodipodi:role="line">///////////////</tspan></text>
     </g>
   </g>
 </svg>
