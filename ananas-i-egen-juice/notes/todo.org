@@ -1,0 +1,4 @@
+* Inbox
+** [ ] emacs gpg integration
+
+gpg-agent config
