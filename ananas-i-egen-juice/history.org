@@ -1,61 +1,3 @@
-  237  git branch
-  238  git push
-  239  git log
-  240  git commit --allow-empty -am'drop filteret, jeg har fra pålidekig kilde, at det ikke gør nogen forskeld'
-  241  git commit --allow-empty -am'Spørgsmålet om ejerskab af grafisk materiale
-  242  https://www.google.com/url?q=https://law.au.dk/fileadmin/Jura/dokumenter/forskning/rettid/Afh_2017/afh6-2017.pdf&sa=U&ved=2ahUKEwju6fGUtvnxAhXvxIsKHdL-Ck8QFjAAegQIChAB&usg=AOvVaw1UjtSheal_i4E9djVDORTK'
-  243  git commit --allow-empty -am'Den sorte løber'
-  244  emacs index.html
-  245  curl localhost:8000
-  246  ls logo-web.svg
-  247  git commit --allow-empty -am'Sølvfisken Simon er død, ære være hans minde
-  248  Han elskede: hud, hår og papir
-  249  '
-  250  git commit --allow-empty -am'white swaning?'
-  251  git commit --allow-empty -am'Jorden er rund'
-  252  git commit --allow-empty -am'Det gør livet også'
-  253  git commit --allow-empty -am'For renen er alting rent'
-  254  ls
-  255  cd ananas-i-egen-juice/
-  256  cd ..
-  257  ls
-  258  git push
-  259  git pull
-  260  git pull --ff-only
-  261  git config pull.rebase true
-  262  git pull
-  263  rm index.html 
-  264  git status
-  265  git pull
-  266  git push
-  267  git config pull.rebase false
-  268  git log
-  269  git commit --allow-empty -m'bane 4 kunne måske være fe-hundene'
-  270  git push
-  271  git commit --allow-empty -m'Der var masser af hunde men ingen katte i Berlin, hvordan kan det være? Er der ingen mus?'
-  272  git push
-  273  git commit --allow-empty -m'Når katten er ude...'
-  274  git push
-  275  git commit --allow-empty -m"Git n' Beer
-  276  Tryggeri eller en fortolkning af Gitte og Per eller noget helt 3.?
-  277  '
-  278  "
-  279  git log
-  280  git push
-  281  git commit --allow-empty -m"Stegt flæsk med persillesauce"
-  282  git push
-  283  git commit --allow-empty -m"Lyseslukker"
-  284  git push
-  285  git commit --allow-empty -m"Lyseslukkeren"
-  286  git push
-  287  git commit --allow-empty -m"hattrick"
-  288  git push
-  289  git commit --allow-empty -m"Jeg inviterede selv den onde fe indenden for
-  290  eller er hun god
-  291  "
-  292  git push
-  293  git commit --allow-empty -m"Skal vi ses igen?"
-  294  git push
   295  cd
   296  cd alpine/
   297  ls
@@ -498,3 +440,61 @@
   734  git push
   735  find . -name "*history*"
   736  history > ananas-i-egen-juice/history.org 
+  737  git push 
+  738  git status
+  739  git commit -am'the truth is out there'
+  740  git push
+  741  git commit -am'gir du en kop kaffe'
+  742  git push
+  743  git commit -am'familiejournalen, tager du noter mor'
+  744  git commit -am'familiejournalen, tager du noter mutti' --allow-empty
+  745  git push
+  746  git commit -am'Jeg skal git dig skatter, slemme mis' --allow-empty
+  747  git push
+  748  git commit -am'Jeg stod af i Roskilde, da jeg var yngre' --allow-empty
+  749  git commit -am'Og så holder vi pizza fest' --allow-empty
+  750  git push
+  751  git commit -am'Glem ikke strand slottene' --allow-empty
+  752  git push
+  753  git commit -am'Skal vi vende den på hovedet' --allow-empty
+  754  git commit -am'Skibet er ladet med, søræve og pirater' --allow-empty
+  755  git commit -am'tja de sidder ikke alle sammen lige i skabet' --allow-empty
+  756  git push 
+  757  git commit -am'Sammen venner vi processen' --allow-empty
+  758  git push
+  759  git commit -am'59% stadig mere fuld end tom' --allow-empty
+  760  git push
+  761  git commit -am'Uforløst skabertrang' --allow-empty
+  762  git push
+  763  git commit --amend --allow-empty
+  764  git push
+  765  git checkout -b external-infuence
+  766  git pull origin/hub
+  767  git remote -v
+  768  git checkout -
+  769  git diff hub/trunk
+  770  git checkout -
+  771  git pull hub/trunk
+  772  git branch -a
+  773  git fetch hub
+  774  git merge hub/trunk
+  775  git checkout -
+  776  git merge hub/saltede-hjerter
+  777  git checkout -
+  778  git merge hub/saltede-hjerter
+  779  git log
+  780  git log -g
+  781  git log -G dyr
+  782  git log --graph --decorate --all
+  783  git reset --merge 8a5fdc6d618b3c156905c79a01b97103dd8
+  784  git log --graph --decorate --all
+  785  git revert HEAD -m 1
+  786  git log
+  787  git reset --hard e2f6dfc272c8c3e8f0c80064b777037fc0027ef
+  788  git branch
+  789  git merge --no-ff external-infuence
+  790  git diff ..hub/trunk
+  791  git branch
+  792  git diff ..hub/saltede-hjerter
+  793  git push
+  794  history > history.org
