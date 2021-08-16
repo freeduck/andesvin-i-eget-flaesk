@@ -731,4 +731,20 @@
            style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">///////////////</tspan></text>
     </g>
   </g>
+
+        <script type="text/javascript">
+         var clock = function(element){
+             var angle = 36;
+             return function(){
+                 element.setAttribute("transform", `rotate(${angle}, 102, 175)`);
+                 angle += 36;
+             }
+         }
+         window.addEventListener("load", function() {
+             var svg = document.getElementById('diller-gruppen');
+             clock.element = svg
+             const bb = svg.getBoundingClientRect()
+             setInterval(clock(svg), 3000)
+         });
+        </script>
 </svg>
