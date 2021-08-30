@@ -1,6 +1,9 @@
 ≡, Idential
-🔥, fire
-🍜, hot bowl
+🔥, fire/hot
+🍜, 🔥 bowl
 ♀️, female
 🍬, candy
 🌃, night
+✋, hand
+👀, eye(s)/see
+
