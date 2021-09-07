@@ -8,3 +8,5 @@
 👀👁️👁️, eye(s)/see
 🐦, bird
 ~*vv, I Know you know it
+∪, union
+∩, intersection
