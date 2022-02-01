@@ -1,0 +1,96 @@
+   0 apk update && apk add docker ip6tables
+   1 service docker start
+   2 rc-update add docker
+   3 apk add zram-init
+   4 service zram-init start
+   5 rc-update add zram-init
+   6 mkdir -p /root/.ssh
+   7 chmod 700 /root/.ssh
+   8 echo ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+Bwwx+qCsLVSAho7O9e/r7M/EFKkrnE/+jWccH+f9Og46N3nzDWc68KIwkRfmrfh6YkOL3WFzBPotrzNCkmiG2GJWrTAltsl2TSEwU9OZiP2nbu7d/7CRdE6crxtBefePQ32eIQbFSdmGOUqof1YYvx2cKUFYag9orcbzte2FQX2tsKpA+jCCaHKxZiHTUzKs7p4M754Nykv7FVzN4r9eXvPWE7SsLTzgy/uMQEemBq8XCKmnyz+WtRA9d8pj7kmmaYiSqsz2/rX3YvGsQp2M0R0X9/8+56/OsUBJUuNdbjPtUsypt4HC8tm5IxT2Qd5oyYeLVo+fjSMzJLGZeTDz u0_a4@localhost >> /root/.ssh/authorized_keys
+   9 halt
+  10 ls
+  11 pwd
+  12 passwd
+  13 docker run hello-world
+  14 free -th
+  15 free -m
+  16 exit
+  17 cat /etc/os-release 
+  18 wget -q -O - https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
+  19 bash
+  20 apk add bash
+  21 bash
+  22 id
+  23 cd
+  24 cd. .
+  25 cd ..
+  26 pwd
+  27 ls
+  28 cs home/
+  29 cd home
+  30 ls
+  31 cat /etc/os-release 
+  32 exit
+  33 k3d cluster list
+  34 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  35 apk add curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  36 apk add curl
+  37 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  38 mv kubectl /usr/local/bin/
+  39 chmod +x /usr/local/bin/kubectl 
+  40 kubectl get nodes
+  41 k3d cluster list
+  42 k3d cluster get-kubeconfig
+  43 k3d get-kubeconfig
+  44 k3d --help
+  45 k3d kubeconfig
+  46 k3d kubeconfig get
+  47 k3d kubeconfig get default
+  48 k3d cluster create --help
+  49 k3d cluster create --help | less
+  50 k3d cluster stop default
+  51 k3d cluster delete k3s-default
+  52 k3s kubectl get node
+  53 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
+  54 kubectl cluster-info
+  55 kubectl cluster-info dump
+  56 cd
+  57 exit
+  58 history
+  59 k3s kubectl get all -A
+  60 docker ps 
+  61 docker run hello-world
+  62 k3s cluster list
+  63 k3d cluster list
+  64 k3d cluster create mycluster
+  65 k3d cluster --help
+  66 k3d cluster create --help
+  67 k3d cluster create --help | greop timeout
+  68 k3d cluster create --help | grep timeout
+  69 k3d cluster create --htimeout 1200
+  70 k3d cluster create --timeout 1200
+  71 k3d cluster create --timeout 30m
+  72 vi /etc/rancher/k3s/config.yaml
+  73 k3s server --help
+  74 k3s server &
+  75 k3s kubeconfig get all -A
+  76 k3s kubectl get all -A
+  77 k3d clustet list
+  78 k3d cluster list
+  79 k3d kubeconfig write mycluster
+  80 export KUBECONFIG=/root/.k3d/kubeconfig-mycluster.yaml
+  81 kubectl get all -A
+  82 k3d kubeconfig write k3s-default
+  83 export KUBECONFIG=/root/.k3d/kubeconfig-k3s-default.yaml
+  84 kubectl get all -A
+  85 k3d cluster delete k3s-default
+  86 k3d cluster delete mycluster
+  87 k3s server
+  88 k3s server --help | grep -i port
+  89 k3s server --https-listen-port 7443
+  90 apt search containerd
+  91 k3d cluster create --verbose mycluster
+  92 k3d cluster create --trace mycluster
+  93 k3d cluster create --trace myclusterh
+  94 history
+  95 history > historie

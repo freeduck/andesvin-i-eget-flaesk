@@ -1,0 +1,28 @@
+Medarbejderen kan i sin fritid arbejde på et hvilket som helst fri software projekt uden først at konsultere Know IT.
+
+Fri software er defineret som følger:
+
+Friheden til at køre programmet til ethvert formål (frihed 0)
+
+Friheden til at studere, hvordan programmet virker og forandre det til dine behov (frihed 1). Adgang til program-koden er en betingelse for dette.
+
+Friheden til at redistribuere kopier, så du kan hjælpe din nabo (frihed 2).
+
+Friheden til at forbedre et program og udgive dine forbedringer til offentligheden, så hele samfundet har gavn af det (frihed 3). Adgang til program-koden er en betingelse for dette.
+
+Definitionerne kan findes online på:
+https://www.gnu.org/philosophy/free-sw.da.html
+
+Ophavsretten til fri software udvikelt i medarbejderens fritid tilfalder medarbejderen.
+
+Medarbejderen kan ikke indlejre egenudviklet fri software ellet kildekode i Knowits eller Knowits kunders kodebiblioteker og tvinge denne kode til at blive åben eller forlange kompensation.
+
+Medarbejderen kan ikke tage Knowits eller Knowits kunders kode og indlejre det i et fri software projekt uden forudgående aftale.
+
+Alle frie software komponenter kan benyttes i medarbejderens software også selvom de forekommer i Knowits eller Knowits software.
+Et eksempel herpå kunne være kubernetes.
+
+Der kan også forekomme ligheder i arkitektur.
+En lagdelt eller stack-based indeling er meget udbred
+
+ligeledes vil best practices mønstre kunne forekomme i både medarbejderens og knowit eller knlwits kunders kode
