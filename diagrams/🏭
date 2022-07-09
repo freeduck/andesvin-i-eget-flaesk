@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -euo pipefail
+
+plantuml -charset UTF-8 ⚡🌾🌾.txt
