@@ -9,7 +9,13 @@
 *** <:trumpet:> 
 * 👁️2 👁️
 ** Bush 2.0
+*** ⧖<:crown:>
+**** ✈
+***** <:1F3E2:>
 ** Putin
 *** <:trumpet:>
+* <:astronaut:>
+** <:1F315:>
+*** ?
 @endmindmap
 
